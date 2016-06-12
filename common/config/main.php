@@ -16,6 +16,12 @@ return [
             'thousandSeparator' => ' ',
         ],
     ],
+    'modules' => [
+        'user' => [
+            'class' => 'dektrium\user\Module',
+            'admins' => ['admin'],
+        ],        
+    ],
     'aliases' => [
         '@main_root' => realpath(dirname(__FILE__) . '/../../'),
     ],

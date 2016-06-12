@@ -20,15 +20,6 @@ return [
                 'path' => '/administrator',
             ],
         ],
-        'user' => [
-            'identityClass' => 'common\models\User',
-            'enableAutoLogin' => true,
-            'identityCookie' => [
-                'name' => '_backendIdentity',
-                'path' => '/administrator',
-                'httpOnly' => true,
-            ],
-        ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
