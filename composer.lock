@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "332a2b5f6335459f06c3df60aa10f7e0",
-    "content-hash": "44b06bad2cfa0d032abc87ebc9b109c9",
+    "hash": "a0248029d487984f0b6f955bdd9f9c1d",
+    "content-hash": "8fde006755d4f883d1c3b2a676bdcae8",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -857,6 +857,52 @@
                 "fixtures"
             ],
             "time": "2016-05-19 20:16:37"
+        },
+        {
+            "name": "insolita/yii2-migration-generator",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Insolita/yii2-migrik.git",
+                "reference": "9b0b1230a93d33194ada6dceabf86325fcc86831"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Insolita/yii2-migrik/zipball/9b0b1230a93d33194ada6dceabf86325fcc86831",
+                "reference": "9b0b1230a93d33194ada6dceabf86325fcc86831",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "require-dev": {
+                "yiisoft/yii2-gii": "*"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "insolita\\migrik\\Bootstrap"
+            },
+            "autoload": {
+                "psr-4": {
+                    "insolita\\migrik\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "insolita",
+                    "email": "donnainsolita@gmail.com"
+                }
+            ],
+            "description": "gii tool for mass migration generation by Schema ",
+            "keywords": [
+                "extension",
+                "yii2"
+            ],
+            "time": "2016-05-17 18:04:55"
         },
         {
             "name": "phpspec/php-diff",
