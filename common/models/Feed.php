@@ -44,6 +44,7 @@ class Feed extends \yii\db\ActiveRecord
             [['created_at', 'updated_at', 'deleted_at'], 'safe'],
             [['id'], 'string', 'max' => 16],
             [['slug', 'api_version_min', 'api_version_max'], 'string', 'max' => 255],
+            [['slug'], 'match', 'pattern' => '/^[a-z0-9-]+$/i'],
         ];
     }
 
@@ -54,13 +55,13 @@ class Feed extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'slug' => 'Slug',
-            'description' => 'Description',
-            'type' => 'Type',
-            'api_version_min' => 'Api Version Min',
-            'api_version_max' => 'Api Version Max',
-            'enabled' => 'Enabled',
-            'deleted' => 'Deleted',
+            'slug' => 'URL',
+            'description' => 'Описание',
+            'type' => 'Тип',
+            'api_version_min' => 'Минимальная версия API',
+            'api_version_max' => 'Максимальная версия API',
+            'enabled' => 'Отображать',
+            'deleted' => 'Удалено',
             'created_at' => 'Created At',
             'created_by' => 'Created By',
             'updated_at' => 'Updated At',
