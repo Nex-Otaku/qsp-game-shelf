@@ -13,4 +13,5 @@ return [
     'lib' => '/media_library/',
     'site_title' => 'Текстовые игры',
     'site_title_for_tab' => 'Текстовые игры',
+    'site_title_mini' => 'ТИ',
 ];
