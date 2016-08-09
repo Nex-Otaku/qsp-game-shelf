@@ -17,18 +17,13 @@ class AppAsset extends AssetBundle
 {
     public $basePath = '@webroot';
     public $baseUrl = '@web';
-    // STUB 
-    // Перенести скрипты админских модулей в сами модули.
-    // Здесь оставить только специфичные для конкретного приложения скрипты.
+    // Скрипты админских модулей должны быть в самих модулях.
+    // Здесь остаются только специфичные для конкретного приложения скрипты.
     public $css = [
-        'js/fancybox/source/jquery.fancybox.css',
         'css/site.css',
-        'css/font-awesome.min.css',
     ];
     public $js = [
-        'js/fancybox/source/jquery.fancybox.pack.js?v=2.1.5',
-        'js/main.js',
-        'js/content-blocks.js',
+        'js/admin-lte-options.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
