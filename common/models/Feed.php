@@ -2,7 +2,7 @@
 
 namespace common\models;
 
-use Yii;
+use common\behaviors\UuidBehavior;
 
 /**
  * This is the model class for table "feed".
@@ -32,6 +32,16 @@ class Feed extends \yii\db\ActiveRecord
         return 'feed';
     }
 
+    /**
+     * @inheritdoc
+     */
+    public function behaviors()
+    {
+        return [
+            UuidBehavior::className(),
+        ];
+    }
+    
     /**
      * @inheritdoc
      */
