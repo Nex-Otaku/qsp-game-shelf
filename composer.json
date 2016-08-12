@@ -19,7 +19,8 @@
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
         "dektrium/yii2-user": "^0.9.6",
-        "dmstr/yii2-adminlte-asset": "^2.3"
+        "dmstr/yii2-adminlte-asset": "^2.3",
+        "p2made/yii2-p2y2-things": "^1.11"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

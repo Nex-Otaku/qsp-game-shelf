@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "53431d1a022354288c63eba68f1d855d",
-    "content-hash": "7eb2b6e1fac008f47c250776461bce9e",
+    "hash": "c3397104c3c10d3d66141cc3b3fa1064",
+    "content-hash": "473603197cb2f47d8fe463fca3675c0a",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -46,6 +46,33 @@
                 "web"
             ],
             "time": "2016-08-04 23:22:06"
+        },
+        {
+            "name": "bower-asset/animate.css",
+            "version": "3.5.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/daneden/animate.css.git",
+                "reference": "010e06e11175840ae84ad9363f7269f03775d963"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/daneden/animate.css/zipball/010e06e11175840ae84ad9363f7269f03775d963",
+                "reference": "010e06e11175840ae84ad9363f7269f03775d963",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "./animate.css",
+                "bower-asset-ignore": [
+                    ".*",
+                    "source",
+                    "*.yml",
+                    "Gemfile",
+                    "Gemfile.lock",
+                    "*.md"
+                ]
+            }
         },
         {
             "name": "bower-asset/bootstrap",
@@ -97,6 +124,945 @@
             ]
         },
         {
+            "name": "bower-asset/bootstrap-social",
+            "version": "5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lipis/bootstrap-social.git",
+                "reference": "90826fa078a9a13a679928a0439fc28cbe2706a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lipis/bootstrap-social/zipball/90826fa078a9a13a679928a0439fc28cbe2706a6",
+                "reference": "90826fa078a9a13a679928a0439fc28cbe2706a6",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/bootstrap": "~3",
+                "bower-asset/font-awesome": "~4.5"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "bootstrap-social.css",
+                    "bootstrap-social.less",
+                    "bootstrap-social.scss"
+                ],
+                "bower-asset-ignore": [
+                    "assets",
+                    "index.html",
+                    "LICENCE"
+                ]
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/bootstrap-sweetalert",
+            "version": "0.4.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lipis/bootstrap-sweetalert.git",
+                "reference": "853bd5c8d047c68346a8aaf03969fd7296092157"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lipis/bootstrap-sweetalert/zipball/853bd5c8d047c68346a8aaf03969fd7296092157",
+                "reference": "853bd5c8d047c68346a8aaf03969fd7296092157",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "lib/sweet-alert.js",
+                    "lib/sweet-alert.css",
+                    "lib/sweet-alert.less",
+                    "lib/sweet-alert-animations.less"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A beautiful replacement for JavaScript's alert for Bootstrap.",
+            "keywords": [
+                "alert",
+                "modal"
+            ]
+        },
+        {
+            "name": "bower-asset/bootstrap-switch",
+            "version": "v3.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nostalgiaz/bootstrap-switch.git",
+                "reference": "ec69b5dd914dacb19cf1fa8e1be7eea6bcc7b083"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nostalgiaz/bootstrap-switch/zipball/ec69b5dd914dacb19cf1fa8e1be7eea6bcc7b083",
+                "reference": "ec69b5dd914dacb19cf1fa8e1be7eea6bcc7b083",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/bootstrap": ">=2.3.2",
+                "bower-asset/jquery": ">=1.9.0"
+            },
+            "require-dev": {
+                "bower-asset/bootstrap": "~3.3",
+                "bower-asset/jquery": "~2.1"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "./dist/js/bootstrap-switch.js",
+                    "./dist/css/bootstrap3/bootstrap-switch.css"
+                ],
+                "bower-asset-ignore": [
+                    "docs",
+                    "test",
+                    "CNAME",
+                    "coffeelint.json",
+                    "composer.json",
+                    "CONTRIBUTING.md",
+                    "gulpfile.coffee",
+                    "gulpfile.js",
+                    "index.html",
+                    "package.json"
+                ]
+            },
+            "description": "Turn checkboxes and radio buttons in toggle switches."
+        },
+        {
+            "name": "bower-asset/bootswatch",
+            "version": "v3.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thomaspark/bootswatch.git",
+                "reference": "57a25bd6da65fcc034c2029c0390272830572b93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/57a25bd6da65fcc034c2029c0390272830572b93",
+                "reference": "57a25bd6da65fcc034c2029c0390272830572b93",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/bootstrap": "~3.3.5"
+            },
+            "require-dev": {
+                "bower-asset/bootstrap-sass-official": "~3.3.5",
+                "bower-asset/font-awesome": "~4.0.0",
+                "bower-asset/html5shiv": "~3.7.0",
+                "bower-asset/respond": "~1.4.2"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-ignore": [
+                    "2",
+                    "api",
+                    "assets",
+                    "bower_components",
+                    "custom",
+                    "default",
+                    "global",
+                    "help",
+                    "tests",
+                    "_config.yml",
+                    ".gitignore",
+                    ".travis.yml",
+                    "CNAME",
+                    "composer.json",
+                    "favicon.ico",
+                    "Gemfile",
+                    "Gruntfile.js",
+                    "index.html",
+                    "package.json",
+                    "*/index.html"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Bootswatch is a collection of themes for Bootstrap."
+        },
+        {
+            "name": "bower-asset/datatables",
+            "version": "1.10.12",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataTables/DataTables.git",
+                "reference": "3a432c5db3546b2ef0c192f2ae367811cb5edb9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/3a432c5db3546b2ef0c192f2ae367811cb5edb9b",
+                "reference": "3a432c5db3546b2ef0c192f2ae367811cb5edb9b",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.7.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "media/js/jquery.dataTables.js",
+                    "media/css/jquery.dataTables.css",
+                    "media/images/sort_asc.png",
+                    "media/images/sort_asc_disabled.png",
+                    "media/images/sort_both.png",
+                    "media/images/sort_desc.png",
+                    "media/images/sort_desc_disabled.png"
+                ],
+                "bower-asset-ignore": [
+                    "/.*",
+                    "examples",
+                    "media/unit_testing",
+                    "composer.json",
+                    "dataTables.jquery.json",
+                    "package.json"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "keywords": [
+                "datatables",
+                "javascript",
+                "jquery",
+                "library",
+                "table"
+            ]
+        },
+        {
+            "name": "bower-asset/datatables-autofill",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataTables/AutoFill.git",
+                "reference": "a58763a7fe7d8abde62081e01e542949e5b943e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/AutoFill/zipball/a58763a7fe7d8abde62081e01e542949e5b943e2",
+                "reference": "a58763a7fe7d8abde62081e01e542949e5b943e2",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/datatables": ">=1.10.8",
+                "bower-asset/jquery": ">=1.7.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "js/dataTables.autoFill.js",
+                    "css/autoFill.dataTables.scss"
+                ]
+            }
+        },
+        {
+            "name": "bower-asset/datatables-buttons",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataTables/Buttons.git",
+                "reference": "2b82c8e13ab7e6877dd142b54929cacc7bba2dc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/Buttons/zipball/2b82c8e13ab7e6877dd142b54929cacc7bba2dc3",
+                "reference": "2b82c8e13ab7e6877dd142b54929cacc7bba2dc3",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/datatables": ">=1.10.8",
+                "bower-asset/jquery": ">=1.7.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "js/dataTables.buttons.js",
+                    "js/buttons.colVis.js",
+                    "js/buttons.flash.js",
+                    "js/buttons.html5.js",
+                    "js/buttons.print.js",
+                    "css/buttons.dataTables.scss"
+                ]
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/datatables-colreorder",
+            "version": "1.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataTables/ColReorder.git",
+                "reference": "4fa02b90857f5b9a1791e1a13210dddf9ee37e54"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/ColReorder/zipball/4fa02b90857f5b9a1791e1a13210dddf9ee37e54",
+                "reference": "4fa02b90857f5b9a1791e1a13210dddf9ee37e54",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/datatables": ">=1.10.8",
+                "bower-asset/jquery": ">=1.7.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "js/dataTables.colReorder.js",
+                    "css/colReorder.dataTables.scss"
+                ]
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/datatables-fixedcolumns",
+            "version": "3.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataTables/FixedColumns.git",
+                "reference": "50a1a97de66c16cc5629f83a2f7f17752e1a9994"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/FixedColumns/zipball/50a1a97de66c16cc5629f83a2f7f17752e1a9994",
+                "reference": "50a1a97de66c16cc5629f83a2f7f17752e1a9994",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/datatables": ">=1.8.0",
+                "bower-asset/jquery": ">=1.7.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "js/dataTables.fixedColumns.js",
+                    "css/fixedColumns.dataTables.scss"
+                ]
+            }
+        },
+        {
+            "name": "bower-asset/datatables-fixedheader",
+            "version": "3.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataTables/FixedHeader.git",
+                "reference": "25e80bbca579fcdb2f6fb044dc1d4c885bf8c550"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/FixedHeader/zipball/25e80bbca579fcdb2f6fb044dc1d4c885bf8c550",
+                "reference": "25e80bbca579fcdb2f6fb044dc1d4c885bf8c550",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/datatables": ">=1.10.7",
+                "bower-asset/jquery": ">=1.7.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "js/dataTables.fixedHeader.js",
+                    "css/fixedHeader.dataTables.scss"
+                ]
+            }
+        },
+        {
+            "name": "bower-asset/datatables-keytable",
+            "version": "2.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataTables/KeyTable.git",
+                "reference": "5c3739399d8a52cc38cf74994f0267249cac4be4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/KeyTable/zipball/5c3739399d8a52cc38cf74994f0267249cac4be4",
+                "reference": "5c3739399d8a52cc38cf74994f0267249cac4be4",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/datatables": ">=1.10.8",
+                "bower-asset/jquery": ">=1.7.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "js/dataTables.keyTable.js",
+                    "css/keyTable.dataTables.scss"
+                ]
+            }
+        },
+        {
+            "name": "bower-asset/datatables-responsive",
+            "version": "2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataTables/Responsive.git",
+                "reference": "1b65f7c4c45acf056e3f799be6fb9f353b740165"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/Responsive/zipball/1b65f7c4c45acf056e3f799be6fb9f353b740165",
+                "reference": "1b65f7c4c45acf056e3f799be6fb9f353b740165",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/datatables": ">=1.10.1",
+                "bower-asset/jquery": ">=1.7.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "js/dataTables.responsive.js",
+                    "css/responsive.dataTables.scss"
+                ]
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/datatables-rowreorder",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataTables/RowReorder.git",
+                "reference": "8ad2f5a91773b30bd0ef81e866f8fb8a423740e2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/RowReorder/zipball/8ad2f5a91773b30bd0ef81e866f8fb8a423740e2",
+                "reference": "8ad2f5a91773b30bd0ef81e866f8fb8a423740e2",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/datatables": ">=1.10.8",
+                "bower-asset/jquery": ">=1.7.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "js/dataTables.rowReorder.js",
+                    "css/rowReorder.dataTables.scss"
+                ]
+            }
+        },
+        {
+            "name": "bower-asset/datatables-scroller",
+            "version": "1.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataTables/Scroller.git",
+                "reference": "aa3ecb78d691a27444d48d6ecb29be3726ff3c8b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/Scroller/zipball/aa3ecb78d691a27444d48d6ecb29be3726ff3c8b",
+                "reference": "aa3ecb78d691a27444d48d6ecb29be3726ff3c8b",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/datatables": ">=1.10.0",
+                "bower-asset/jquery": ">=1.7.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "js/dataTables.scroller.js",
+                    "css/scroller.dataTables.scss"
+                ]
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/datatables-select",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DataTables/Select.git",
+                "reference": "e55ca881018ac6a5a51a0ec592ff3b4ba70d57a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DataTables/Select/zipball/e55ca881018ac6a5a51a0ec592ff3b4ba70d57a8",
+                "reference": "e55ca881018ac6a5a51a0ec592ff3b4ba70d57a8",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/datatables": ">=1.10.8",
+                "bower-asset/jquery": ">=1.7.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "js/dataTables.select.js",
+                    "css/select.dataTables.scss"
+                ]
+            }
+        },
+        {
+            "name": "bower-asset/desandro-matches-selector",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/desandro/matches-selector.git",
+                "reference": "94f06d14dc2defafe8b6d6be4d9b999269d70abc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/desandro/matches-selector/zipball/94f06d14dc2defafe8b6d6be4d9b999269d70abc",
+                "reference": "94f06d14dc2defafe8b6d6be4d9b999269d70abc",
+                "shasum": ""
+            },
+            "require-dev": {
+                "bower-asset/qunit": "dev-1.x|1.x"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "matches-selector.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests",
+                    "tests.*",
+                    "package.json"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "matches/matchesSelector helper",
+            "keywords": [
+                "DOM",
+                "matches",
+                "matchesSelector"
+            ]
+        },
+        {
+            "name": "bower-asset/ekko-lightbox",
+            "version": "v4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ashleydw/lightbox.git",
+                "reference": "e810882997264b63f1e055241f23ab22f74b3e80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ashleydw/lightbox/zipball/e810882997264b63f1e055241f23ab22f74b3e80",
+                "reference": "e810882997264b63f1e055241f23ab22f74b3e80",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/bootstrap": ">=3.0.0"
+            },
+            "require-dev": {
+                "bower-asset/grunt": "~0.4.1",
+                "bower-asset/grunt-banner": "~0.2.0",
+                "bower-asset/grunt-contrib-coffee": "~0.8.0",
+                "bower-asset/grunt-contrib-uglify": "~0.2.2",
+                "bower-asset/grunt-contrib-watch": "~0.5.1",
+                "bower-asset/grunt-recess": "~0.3.3"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "./dist/ekko-lightbox.min.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "examples",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A lightbox gallery plugin for Bootstrap 3 based on the modal plugin",
+            "keywords": [
+                "bootstrap",
+                "gallery",
+                "jquery",
+                "lightbox",
+                "modal"
+            ]
+        },
+        {
+            "name": "bower-asset/ev-emitter",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/metafizzy/ev-emitter.git",
+                "reference": "1c67f55ea625b87857c2846e9505aee43f45bc6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/metafizzy/ev-emitter/zipball/1c67f55ea625b87857c2846e9505aee43f45bc6c",
+                "reference": "1c67f55ea625b87857c2846e9505aee43f45bc6c",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "ev-emitter.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests",
+                    "sandbox"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "lil' event emitter",
+            "keywords": [
+                "emitter",
+                "event",
+                "pubsub"
+            ]
+        },
+        {
+            "name": "bower-asset/fizzy-ui-utils",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/metafizzy/fizzy-ui-utils.git",
+                "reference": "0137276a4541008ffa4fee42e6b3e09c3ed0fb53"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/metafizzy/fizzy-ui-utils/zipball/0137276a4541008ffa4fee42e6b3e09c3ed0fb53",
+                "reference": "0137276a4541008ffa4fee42e6b3e09c3ed0fb53",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/desandro-matches-selector": "~2.0.0"
+            },
+            "require-dev": {
+                "bower-asset/qunit": "~1.20.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "utils.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests",
+                    "package.json"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "UI utilities",
+            "keywords": [
+                "ui",
+                "utility"
+            ]
+        },
+        {
+            "name": "bower-asset/flag-icon-css",
+            "version": "2.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lipis/flag-icon-css.git",
+                "reference": "836eca11ecf437ae3d0f0c93dd245ab00d94cee1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lipis/flag-icon-css/zipball/836eca11ecf437ae3d0f0c93dd245ab00d94cee1",
+                "reference": "836eca11ecf437ae3d0f0c93dd245ab00d94cee1",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "css/flag-icon.min.css",
+                    "less/flag-icon.less",
+                    "sass/_flag-icon.sass"
+                ],
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "assets",
+                    "Gruntfile.coffee",
+                    "index.html",
+                    "LICENSE",
+                    "package.json"
+                ]
+            }
+        },
+        {
+            "name": "bower-asset/flot.tooltip",
+            "version": "0.8.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/krzysu/flot.tooltip.git",
+                "reference": "fe97782119656c12d981e403483948c3bfdbb84b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/krzysu/flot.tooltip/zipball/fe97782119656c12d981e403483948c3bfdbb84b",
+                "reference": "fe97782119656c12d981e403483948c3bfdbb84b",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "js/jquery.flot.tooltip.js",
+                "bower-asset-ignore": [
+                    ".gitignore",
+                    "Gruntfile.js",
+                    "README.md",
+                    "package.json",
+                    "examples"
+                ]
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/font-awesome",
+            "version": "v4.6.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                "reference": "8e241f209faa1dd2182c9fdc9c352d8806504a4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/8e241f209faa1dd2182c9fdc9c352d8806504a4e",
+                "reference": "8e241f209faa1dd2182c9fdc9c352d8806504a4e",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "less/font-awesome.less",
+                    "scss/font-awesome.scss"
+                ],
+                "bower-asset-ignore": [
+                    "*/.*",
+                    "*.json",
+                    "src",
+                    "*.yml",
+                    "Gemfile",
+                    "Gemfile.lock",
+                    "*.md"
+                ]
+            },
+            "license": [
+                "OFL-1.1",
+                "MIT",
+                "CC-BY-3.0"
+            ],
+            "description": "Font Awesome"
+        },
+        {
+            "name": "bower-asset/fullcalendar",
+            "version": "v2.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fullcalendar/fullcalendar.git",
+                "reference": "237bd4da83f38ba678fd5272c44b7a2ad13ccdc5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fullcalendar/fullcalendar/zipball/237bd4da83f38ba678fd5272c44b7a2ad13ccdc5",
+                "reference": "237bd4da83f38ba678fd5272c44b7a2ad13ccdc5",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.7.1",
+                "bower-asset/moment": ">=2.5.0"
+            },
+            "require-dev": {
+                "bower-asset/bootstrap": "~3.2.0",
+                "bower-asset/jasmine-fixture": "~1.2.0",
+                "bower-asset/jasmine-jquery": "~2.0.3",
+                "bower-asset/jquery-mockjax": "~2.1.1",
+                "bower-asset/jquery-simulate": "~1.0.1",
+                "bower-asset/jquery-ui": ">=1.11.1",
+                "bower-asset/moment-timezone": "~0.2.1"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "dist/fullcalendar.js",
+                    "dist/fullcalendar.css"
+                ],
+                "bower-asset-ignore": [
+                    "*",
+                    "**/.*",
+                    "!/dist/**",
+                    "!/README.*",
+                    "!/LICENSE.*",
+                    "!/CHANGELOG.*",
+                    "!/CONTRIBUTING.*"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Full-sized drag & drop event calendar",
+            "keywords": [
+                "calendar",
+                "event",
+                "full-sized",
+                "jquery-plugin"
+            ]
+        },
+        {
+            "name": "bower-asset/get-size",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/desandro/get-size.git",
+                "reference": "2d64a97712adcaeaa9c3a415559934df20bf8009"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/desandro/get-size/zipball/2d64a97712adcaeaa9c3a415559934df20bf8009",
+                "reference": "2d64a97712adcaeaa9c3a415559934df20bf8009",
+                "shasum": ""
+            },
+            "require-dev": {
+                "bower-asset/qunit": "~1.10"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "get-size.js",
+                "bower-asset-ignore": [
+                    "test/",
+                    "**/.*",
+                    "package.json",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests",
+                    "sandbox.html"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "measures element size",
+            "keywords": [
+                "dom",
+                "height",
+                "size",
+                "width"
+            ]
+        },
+        {
+            "name": "bower-asset/gmaps",
+            "version": "0.4.24",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hpneo/gmaps.git",
+                "reference": "648f15aff1c7c6115d372973864a3878da9e1621"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hpneo/gmaps/zipball/648f15aff1c7c6115d372973864a3878da9e1621",
+                "reference": "648f15aff1c7c6115d372973864a3878da9e1621",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "gmaps.js"
+            }
+        },
+        {
+            "name": "bower-asset/holderjs",
+            "version": "v2.9.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imsky/holder.git",
+                "reference": "325b1053364cc37c74d59efaca83dd3b6389d772"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imsky/holder/zipball/325b1053364cc37c74d59efaca83dd3b6389d772",
+                "reference": "325b1053364cc37c74d59efaca83dd3b6389d772",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "holder.js"
+            },
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "bower-asset/isotope",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/metafizzy/isotope.git",
+                "reference": "812c3f81ce29781f4255e97686c1117ef38d898c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/metafizzy/isotope/zipball/812c3f81ce29781f4255e97686c1117ef38d898c",
+                "reference": "812c3f81ce29781f4255e97686c1117ef38d898c",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/desandro-matches-selector": ">=2.0.0,<3.0.0",
+                "bower-asset/fizzy-ui-utils": ">=2.0.0,<3.0.0",
+                "bower-asset/get-size": ">=2.0.0,<3.0.0",
+                "bower-asset/masonry": ">=4.1.0,<5.0.0",
+                "bower-asset/outlayer": ">=2.1.0,<3.0.0"
+            },
+            "require-dev": {
+                "bower-asset/jquery": "2,<4",
+                "bower-asset/jquery-bridget": ">=2.0.0,<3.0.0",
+                "bower-asset/qunit": ">=1.15.0,<2.0.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "js/isotope.js",
+                "bower-asset-ignore": [
+                    "test/",
+                    "sandbox/",
+                    "**/.*",
+                    "package.json",
+                    "notes.md",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests"
+                ]
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "description": "Filter and sort magical layouts",
+            "keywords": [
+                "filter",
+                "jquery-plugin",
+                "masonry",
+                "sort"
+            ]
+        },
+        {
             "name": "bower-asset/jquery",
             "version": "2.2.4",
             "source": {
@@ -128,6 +1094,62 @@
             ]
         },
         {
+            "name": "bower-asset/jquery-countTo",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mhuggins/jquery-countTo.git",
+                "reference": "636f1fca33abd40e2f29048df82b2dc9f1013cca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mhuggins/jquery-countTo/zipball/636f1fca33abd40e2f29048df82b2dc9f1013cca",
+                "reference": "636f1fca33abd40e2f29048df82b2dc9f1013cca",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "jquery.countTo.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A jQuery plugin that will count up (or down) to a target number at a specified speed.",
+            "keywords": [
+                "count",
+                "counter",
+                "decrement",
+                "increment",
+                "jQuery"
+            ]
+        },
+        {
+            "name": "bower-asset/jquery-migrate",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/appleboy/jquery-migrate.git",
+                "reference": "29077d39689bddad05036a537d49c4cf96488569"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/appleboy/jquery-migrate/zipball/29077d39689bddad05036a537d49c4cf96488569",
+                "reference": "29077d39689bddad05036a537d49c4cf96488569",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "jquery-migrate.js"
+            }
+        },
+        {
             "name": "bower-asset/jquery-ui",
             "version": "1.11.4",
             "source": {
@@ -151,6 +1173,47 @@
                 ],
                 "bower-asset-ignore": []
             }
+        },
+        {
+            "name": "bower-asset/jquery.fitvids",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/davatron5000/FitVids.js.git",
+                "reference": "d052bf05d6579f198a7f3b05bfa6764f6873c99b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/davatron5000/FitVids.js/zipball/d052bf05d6579f198a7f3b05bfa6764f6873c99b",
+                "reference": "d052bf05d6579f198a7f3b05bfa6764f6873c99b",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": ">=1.7.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "./jquery.fitvids.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "components",
+                    "bower_components",
+                    "test",
+                    "tests"
+                ]
+            },
+            "license": [
+                "WTFPL"
+            ],
+            "description": "FitVids makes video embeds responsive",
+            "keywords": [
+                "FitVids",
+                "RWD",
+                "Responsive",
+                "Vimeo",
+                "YouTube"
+            ]
         },
         {
             "name": "bower-asset/jquery.inputmask",
@@ -199,6 +1262,270 @@
             ]
         },
         {
+            "name": "bower-asset/lightbox2",
+            "version": "v2.8.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lokesh/lightbox2.git",
+                "reference": "2eedbf5c740e530e7abc78db6cf0ecec408f6512"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lokesh/lightbox2/zipball/2eedbf5c740e530e7abc78db6cf0ecec408f6512",
+                "reference": "2eedbf5c740e530e7abc78db6cf0ecec408f6512",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": "~2"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "./dist/js/lightbox.js",
+                    "./dist/css/lightbox.css",
+                    "./dist/images/close.png",
+                    "./dist/images/loading.gif",
+                    "./dist/images/next.png",
+                    "./dist/images/prev.png"
+                ],
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "The original Lightbox script. Uses jQuery.",
+            "keywords": [
+                "gallery",
+                "images",
+                "lightbox",
+                "lightbox2",
+                "overlay",
+                "slideshow"
+            ]
+        },
+        {
+            "name": "bower-asset/masonry",
+            "version": "v4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/desandro/masonry.git",
+                "reference": "af5f63c6a393ee97b01fbbbaf6508204e9742edf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/desandro/masonry/zipball/af5f63c6a393ee97b01fbbbaf6508204e9742edf",
+                "reference": "af5f63c6a393ee97b01fbbbaf6508204e9742edf",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/get-size": ">=2.0.2,<3.0.0",
+                "bower-asset/outlayer": ">=2.1.0,<3.0.0"
+            },
+            "require-dev": {
+                "bower-asset/jquery": ">=1.4.3,<4",
+                "bower-asset/jquery-bridget": "~2.0.0",
+                "bower-asset/qunit": ">=1.12.0,<2.0.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "masonry.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests",
+                    "sandbox/",
+                    "gulpfile.js",
+                    "package.json",
+                    "composer.json"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Cascading grid layout library",
+            "keywords": [
+                "layout",
+                "masonry",
+                "outlayer"
+            ]
+        },
+        {
+            "name": "bower-asset/metisMenu",
+            "version": "v2.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/onokumus/metisMenu.git",
+                "reference": "ba21a8ea77bcecf8d23ec156ae8b2c0ae82167ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/onokumus/metisMenu/zipball/ba21a8ea77bcecf8d23ec156ae8b2c0ae82167ba",
+                "reference": "ba21a8ea77bcecf8d23ec156ae8b2c0ae82167ba",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/jquery": "~2.2.3"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "dist/metisMenu.js",
+                    "dist/metisMenu.css"
+                ],
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests",
+                    "src",
+                    "composer.json"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A jQuery menu plugin",
+            "keywords": [
+                "accordion",
+                "bootstrap",
+                "jquery",
+                "menu",
+                "metis",
+                "metisMenu",
+                "toggle",
+                "twbs",
+                "twitter"
+            ]
+        },
+        {
+            "name": "bower-asset/moment",
+            "version": "2.13.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moment/moment.git",
+                "reference": "d6651c21c6131fbb5db891b60971357739015688"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moment/moment/zipball/d6651c21c6131fbb5db891b60971357739015688",
+                "reference": "d6651c21c6131fbb5db891b60971357739015688",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "moment.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "benchmarks",
+                    "bower_components",
+                    "meteor",
+                    "node_modules",
+                    "scripts",
+                    "tasks",
+                    "test",
+                    "component.json",
+                    "composer.json",
+                    "CONTRIBUTING.md",
+                    "ender.js",
+                    "Gruntfile.js",
+                    "Moment.js.nuspec",
+                    "package.js",
+                    "package.json"
+                ]
+            }
+        },
+        {
+            "name": "bower-asset/moment-timezone",
+            "version": "0.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/moment/moment-timezone.git",
+                "reference": "a35db0367651d7bafcc750114a124343d349b8f5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/moment/moment-timezone/zipball/a35db0367651d7bafcc750114a124343d349b8f5",
+                "reference": "a35db0367651d7bafcc750114a124343d349b8f5",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/moment": ">=2.6.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "builds/moment-timezone-with-data-2010-2020.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "tests",
+                    "tasks",
+                    "data/*/20*.json",
+                    "contributing.md",
+                    "Gruntfile.js",
+                    "index.js",
+                    "package.json"
+                ]
+            },
+            "description": "Parse and display moments in any timezone."
+        },
+        {
+            "name": "bower-asset/outlayer",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/metafizzy/outlayer.git",
+                "reference": "910f139591665752a0e779460438a6404eed4977"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/metafizzy/outlayer/zipball/910f139591665752a0e779460438a6404eed4977",
+                "reference": "910f139591665752a0e779460438a6404eed4977",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/ev-emitter": ">=1.0.0,<2.0.0",
+                "bower-asset/fizzy-ui-utils": ">=2.0.0,<3.0.0",
+                "bower-asset/get-size": ">=2.0.2,<3.0.0"
+            },
+            "require-dev": {
+                "bower-asset/jquery": ">=1.4.3,<4",
+                "bower-asset/jquery-bridget": "dev-2.x|2.x",
+                "bower-asset/qunit": ">=1.17.0,<2.0.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "outlayer.js",
+                "bower-asset-ignore": [
+                    "test/",
+                    "docs/",
+                    "sandbox/",
+                    ".*",
+                    "notes.md",
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests",
+                    "package.json"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "the brains and guts of a layout library",
+            "keywords": [
+                "isotope",
+                "layout",
+                "masonry"
+            ]
+        },
+        {
             "name": "bower-asset/punycode",
             "version": "v1.3.2",
             "source": {
@@ -225,6 +1552,108 @@
                     "package.json"
                 ]
             }
+        },
+        {
+            "name": "bower-asset/qunit",
+            "version": "1.23.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jquery/qunit.git",
+                "reference": "d3335d550bc0fa6a553dc922d9a6a4e50bb55bd9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jquery/qunit/zipball/d3335d550bc0fa6a553dc922d9a6a4e50bb55bd9",
+                "reference": "d3335d550bc0fa6a553dc922d9a6a4e50bb55bd9",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "qunit/qunit.js",
+                    "qunit/qunit.css"
+                ],
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "!LICENSE.txt",
+                    "package.json",
+                    "Gruntfile.js",
+                    "node_modules",
+                    "test"
+                ]
+            },
+            "license": [
+                "https://github.com/jquery/qunit/blob/master/LICENSE.txt"
+            ]
+        },
+        {
+            "name": "bower-asset/sweetalert",
+            "version": "v1.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/t4t5/sweetalert.git",
+                "reference": "3b9d8eb90268e0b1f8f58b2eba240631df0ad18f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/t4t5/sweetalert/zipball/3b9d8eb90268e0b1f8f58b2eba240631df0ad18f",
+                "reference": "3b9d8eb90268e0b1f8f58b2eba240631df0ad18f",
+                "shasum": ""
+            },
+            "require-dev": {
+                "bower-asset/jquery": "~2.1.4",
+                "bower-asset/qunit": "~1.18.0"
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": [
+                    "dist/sweetalert.min.js",
+                    "dist/sweetalert.css"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "A beautiful replacement for JavaScript's alert.",
+            "keywords": [
+                "alert",
+                "modal"
+            ]
+        },
+        {
+            "name": "bower-asset/wow",
+            "version": "1.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/matthieua/WOW.git",
+                "reference": "535597ab3d6dfe3f7bfd76281c991e042fdeca25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/matthieua/WOW/zipball/535597ab3d6dfe3f7bfd76281c991e042fdeca25",
+                "reference": "535597ab3d6dfe3f7bfd76281c991e042fdeca25",
+                "shasum": ""
+            },
+            "type": "bower-asset-library",
+            "extra": {
+                "bower-asset-main": "dist/wow.js",
+                "bower-asset-ignore": [
+                    "**/.*",
+                    "node_modules",
+                    "bower_components",
+                    "test",
+                    "tests"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "description": "Reveal CSS animation as you scroll down a page.",
+            "keywords": [
+                "animation",
+                "reveal",
+                "scroll"
+            ]
         },
         {
             "name": "bower-asset/yii2-pjax",
@@ -529,6 +1958,440 @@
                 "html"
             ],
             "time": "2015-08-05 01:03:42"
+        },
+        {
+            "name": "fortawesome/font-awesome",
+            "version": "v4.6.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                "reference": "8e241f209faa1dd2182c9fdc9c352d8806504a4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/8e241f209faa1dd2182c9fdc9c352d8806504a4e",
+                "reference": "8e241f209faa1dd2182c9fdc9c352d8806504a4e",
+                "shasum": ""
+            },
+            "require-dev": {
+                "jekyll": "1.0.2",
+                "lessc": "1.4.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.6.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OFL-1.1",
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Gandy",
+                    "email": "dave@fontawesome.io",
+                    "homepage": "http://twitter.com/davegandy",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The iconic font and CSS framework",
+            "homepage": "http://fontawesome.io/",
+            "keywords": [
+                "FontAwesome",
+                "awesome",
+                "bootstrap",
+                "font",
+                "icon"
+            ],
+            "time": "2016-05-13 15:42:25"
+        },
+        {
+            "name": "fxp/composer-asset-plugin",
+            "version": "v1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fxpio/composer-asset-plugin.git",
+                "reference": "c3d803cc890fad5a7fb61a4036c5d973faae34af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fxpio/composer-asset-plugin/zipball/c3d803cc890fad5a7fb61a4036c5d973faae34af",
+                "reference": "c3d803cc890fad5a7fb61a4036c5d973faae34af",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Fxp\\Composer\\AssetPlugin\\FxpAssetPlugin",
+                "branch-alias": {
+                    "dev-master": "1.1-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fxp\\Composer\\AssetPlugin\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Pluchino",
+                    "email": "francois.pluchino@gmail.com"
+                }
+            ],
+            "description": "NPM/Bower Dependency Manager for Composer",
+            "homepage": "https://github.com/francoispluchino/composer-asset-plugin",
+            "keywords": [
+                "asset",
+                "bower",
+                "composer",
+                "dependency manager",
+                "nodejs",
+                "npm",
+                "package"
+            ],
+            "time": "2016-04-22 08:48:58"
+        },
+        {
+            "name": "moontoast/math",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ramsey/moontoast-math.git",
+                "reference": "fce28a9d1e73e73376cb44e5e581675d15fbe2f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ramsey/moontoast-math/zipball/fce28a9d1e73e73376cb44e5e581675d15fbe2f3",
+                "reference": "fce28a9d1e73e73376cb44e5e581675d15fbe2f3",
+                "shasum": ""
+            },
+            "require": {
+                "ext-bcmath": "*",
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Moontoast\\Math": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "A mathematics library, providing functionality for large numbers",
+            "homepage": "https://github.com/moontoast/math",
+            "keywords": [
+                "bcmath",
+                "math"
+            ],
+            "time": "2013-01-19 17:42:34"
+        },
+        {
+            "name": "p2made/yii2-p2y2-things",
+            "version": "v1.11.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/p2made/yii2-p2y2-things.git",
+                "reference": "21428cd6447a19b8351beb69cc59c8c0fa652cc6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/p2made/yii2-p2y2-things/zipball/21428cd6447a19b8351beb69cc59c8c0fa652cc6",
+                "reference": "21428cd6447a19b8351beb69cc59c8c0fa652cc6",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/animate.css": "3.5.1",
+                "bower-asset/bootstrap-social": "5.0.0",
+                "bower-asset/bootstrap-sweetalert": "0.4.5",
+                "bower-asset/bootstrap-switch": "v3.3.2",
+                "bower-asset/bootswatch": "v3.3.5",
+                "bower-asset/datatables": "1.10.12",
+                "bower-asset/datatables-autofill": "2.1.2",
+                "bower-asset/datatables-buttons": "1.2.0",
+                "bower-asset/datatables-colreorder": "1.3.2",
+                "bower-asset/datatables-fixedcolumns": "3.2.2",
+                "bower-asset/datatables-fixedheader": "3.1.2",
+                "bower-asset/datatables-keytable": "2.1.2",
+                "bower-asset/datatables-responsive": "2.1.0",
+                "bower-asset/datatables-rowreorder": "1.1.2",
+                "bower-asset/datatables-scroller": "1.4.2",
+                "bower-asset/datatables-select": "1.2.0",
+                "bower-asset/ekko-lightbox": "v4.0.2",
+                "bower-asset/flag-icon-css": "2.3.1",
+                "bower-asset/flot.tooltip": "0.8.7",
+                "bower-asset/fullcalendar": "2.7.1",
+                "bower-asset/gmaps": "0.4.24",
+                "bower-asset/holderjs": "v2.9.3",
+                "bower-asset/isotope": "v3.0.0",
+                "bower-asset/jquery-countto": "v1.2.0",
+                "bower-asset/jquery-migrate": "1.4.0",
+                "bower-asset/jquery-ui": "1.11.4",
+                "bower-asset/jquery.fitvids": "v1.1.0",
+                "bower-asset/lightbox2": "v2.8.2",
+                "bower-asset/masonry": "v4.1.0",
+                "bower-asset/metismenu": "v2.5.2",
+                "bower-asset/moment": "2.13.0",
+                "bower-asset/moment-timezone": "0.5.3",
+                "bower-asset/qunit": "1.23.1",
+                "bower-asset/sweetalert": "v1.1.3",
+                "bower-asset/wow": "1.1.2",
+                "fortawesome/font-awesome": "v4.6.3",
+                "fxp/composer-asset-plugin": "1.1.4",
+                "moontoast/math": "1.1.0",
+                "philippfrenzel/yii2fullcalendar": "2.5.3",
+                "ramsey/uuid": "3.4.1",
+                "rmrevin/yii2-fontawesome": "2.15.1",
+                "yiisoft/yii2": ">=2.0.8"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "p2made\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pedro Plowman",
+                    "email": "p2opensource@gmail.com",
+                    "homepage": "https://github.com/p2made"
+                }
+            ],
+            "description": "A bunch of CSS & JS resources wrapped as Yii 2 AssetBundles &/or Widgets.",
+            "keywords": [
+                "Bootstrap Social",
+                "Holder.js",
+                "Morris.js",
+                "Respond.JS",
+                "alerts",
+                "asset",
+                "bundle",
+                "calendar",
+                "charts",
+                "data",
+                "datatables",
+                "excanvas",
+                "extension",
+                "flot",
+                "fullcalendar",
+                "graphics",
+                "html5shiv",
+                "menu",
+                "metisMenu",
+                "moment",
+                "moment-timezone",
+                "moment.js",
+                "morris",
+                "php",
+                "placeholder",
+                "placeholder-image",
+                "raphael",
+                "social",
+                "sweetalert",
+                "tables",
+                "time",
+                "timezone",
+                "vector",
+                "vector graphics",
+                "widget",
+                "yii",
+                "yii2"
+            ],
+            "time": "2016-06-06 13:23:38"
+        },
+        {
+            "name": "paragonie/random_compat",
+            "version": "v2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/088c04e2f261c33bed6ca5245491cfca69195ccf",
+                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/random.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "pseudorandom",
+                "random"
+            ],
+            "time": "2016-04-03 06:00:07"
+        },
+        {
+            "name": "philippfrenzel/yii2fullcalendar",
+            "version": "2.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/philippfrenzel/yii2fullcalendar.git",
+                "reference": "a00862648a8cc81ddd8175b7b6f3ca6f09bde7c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/philippfrenzel/yii2fullcalendar/zipball/a00862648a8cc81ddd8175b7b6f3ca6f09bde7c3",
+                "reference": "a00862648a8cc81ddd8175b7b6f3ca6f09bde7c3",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/fullcalendar": "2.*",
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "*",
+                "yiisoft/yii2-jui": "*"
+            },
+            "require-dev": {
+                "codeception/codeception": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "yii2fullcalendar\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Philipp Frenzel",
+                    "email": "philipp@frenzel.net",
+                    "homepage": "http://www.frenzel.net/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Yii2 fullcalendar Widgets",
+            "homepage": "http://www.frenzel.net/",
+            "keywords": [
+                "fullcalendar",
+                "yii2"
+            ],
+            "time": "2016-04-23 15:30:06"
+        },
+        {
+            "name": "ramsey/uuid",
+            "version": "3.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ramsey/uuid.git",
+                "reference": "b4fe3b7387cb323fd15ad5837cae992422c9fa5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/b4fe3b7387cb323fd15ad5837cae992422c9fa5c",
+                "reference": "b4fe3b7387cb323fd15ad5837cae992422c9fa5c",
+                "shasum": ""
+            },
+            "require": {
+                "paragonie/random_compat": "^1.0|^2.0",
+                "php": ">=5.4"
+            },
+            "replace": {
+                "rhumsaa/uuid": "self.version"
+            },
+            "require-dev": {
+                "apigen/apigen": "^4.1",
+                "codeception/aspect-mock": "1.0.0",
+                "goaop/framework": "1.0.0-alpha.2",
+                "ircmaxell/random-lib": "^1.1",
+                "jakub-onderka/php-parallel-lint": "^0.9.0",
+                "mockery/mockery": "^0.9.4",
+                "moontoast/math": "^1.1",
+                "phpunit/phpunit": "^4.7|^5.0",
+                "satooshi/php-coveralls": "^0.6.1",
+                "squizlabs/php_codesniffer": "^2.3"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides the PECL libsodium extension for use with the SodiumRandomGenerator",
+                "ext-uuid": "Provides the PECL UUID extension for use with the PeclUuidTimeGenerator and PeclUuidRandomGenerator",
+                "ircmaxell/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
+                "moontoast/math": "Provides support for converting UUID to 128-bit integer (in string form).",
+                "ramsey/uuid-console": "A console application for generating UUIDs with ramsey/uuid",
+                "ramsey/uuid-doctrine": "Allows the use of Ramsey\\Uuid\\Uuid as Doctrine field type."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Ramsey\\Uuid\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marijn Huizendveld",
+                    "email": "marijn.huizendveld@gmail.com"
+                },
+                {
+                    "name": "Thibaud Fabre",
+                    "email": "thibaud@aztech.io"
+                },
+                {
+                    "name": "Ben Ramsey",
+                    "email": "ben@benramsey.com",
+                    "homepage": "https://benramsey.com"
+                }
+            ],
+            "description": "Formerly rhumsaa/uuid. A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
+            "homepage": "https://github.com/ramsey/uuid",
+            "keywords": [
+                "guid",
+                "identifier",
+                "uuid"
+            ],
+            "time": "2016-04-24 00:30:41"
         },
         {
             "name": "rmrevin/yii2-fontawesome",
