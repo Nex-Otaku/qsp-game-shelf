@@ -6,9 +6,17 @@
             [
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
-                    ['label' => 'Menu Yii2', 'options' => ['class' => 'header']],
+                    // Общее для всех проектов.
+                    ['label' => 'Разработка', 'options' => ['class' => 'header']],
                     ['label' => 'Gii', 'icon' => 'fa fa-file-code-o', 'url' => ['/gii']],
                     ['label' => 'Debug', 'icon' => 'fa fa-dashboard', 'url' => ['/debug']],
+                    
+                    // Специфично для проекта.
+                    ['label' => 'Администрирование', 'options' => ['class' => 'header']],
+                    ['label' => 'Фиды', 'icon' => 'fa fa-file-code-o', 'url' => ['feed/index']],
+                    
+                    // Примеры для пунктов меню.
+                    /*
                     ['label' => 'Login', 'url' => ['site/login'], 'visible' => Yii::$app->user->isGuest],
                     [
                         'label' => 'Same tools',
@@ -36,6 +44,7 @@
                             ],
                         ],
                     ],
+                     */
                 ],
             ]
         ) ?>

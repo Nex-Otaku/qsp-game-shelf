@@ -41,6 +41,7 @@ return [
         ],
         'urlManager' => [
             'rules' => [
+                'feed' => 'feed/index',
             ],
         ],
     ],
