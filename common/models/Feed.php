@@ -2,6 +2,7 @@
 
 namespace common\models;
 
+use Yii;
 use common\behaviors\UuidBehavior;
 
 /**
@@ -64,20 +65,20 @@ class Feed extends \yii\db\ActiveRecord
     public function attributeLabels()
     {
         return [
-            'id' => 'ID',
-            'slug' => 'URL',
-            'description' => 'Описание',
-            'type' => 'Тип',
-            'api_version_min' => 'Минимальная версия API',
-            'api_version_max' => 'Максимальная версия API',
-            'enabled' => 'Отображать',
-            'deleted' => 'Удалено',
-            'created_at' => 'Created At',
-            'created_by' => 'Created By',
-            'updated_at' => 'Updated At',
-            'updated_by' => 'Updated By',
-            'deleted_at' => 'Deleted At',
-            'deleted_by' => 'Deleted By',
+           'id' => Yii::t('app', 'ID'),
+           'slug' => Yii::t('app', 'Slug'),
+           'description' => Yii::t('app', 'Description'),
+           'type' => Yii::t('app', 'Type'),
+           'api_version_min' => Yii::t('app', 'Api Version Min'),
+           'api_version_max' => Yii::t('app', 'Api Version Max'),
+           'enabled' => Yii::t('app', 'Enabled'),
+           'deleted' => Yii::t('app', 'Deleted'),
+           'created_at' => Yii::t('app', 'Created At'),
+           'created_by' => Yii::t('app', 'Created By'),
+           'updated_at' => Yii::t('app', 'Updated At'),
+           'updated_by' => Yii::t('app', 'Updated By'),
+           'deleted_at' => Yii::t('app', 'Deleted At'),
+           'deleted_by' => Yii::t('app', 'Deleted By'),
         ];
     }
 }
