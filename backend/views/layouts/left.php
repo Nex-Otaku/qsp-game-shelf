@@ -7,13 +7,13 @@
                 'options' => ['class' => 'sidebar-menu'],
                 'items' => [
                     // Общее для всех проектов.
-                    ['label' => 'Разработка', 'options' => ['class' => 'header']],
-                    ['label' => 'Gii', 'icon' => 'fa fa-file-code-o', 'url' => ['/gii']],
-                    ['label' => 'Debug', 'icon' => 'fa fa-dashboard', 'url' => ['/debug']],
+                    ['label' => Yii::t('app', 'Development'), 'options' => ['class' => 'header']],
+                    ['label' => Yii::t('app', 'Gii'), 'icon' => 'fa fa-file-code-o', 'url' => ['/gii']],
+                    ['label' => Yii::t('app', 'Debug'), 'icon' => 'fa fa-dashboard', 'url' => ['/debug']],
                     
                     // Специфично для проекта.
-                    ['label' => 'Администрирование', 'options' => ['class' => 'header']],
-                    ['label' => 'Фиды', 'icon' => 'fa fa-file-code-o', 'url' => ['feed/index']],
+                    ['label' => Yii::t('app', 'Admin'), 'options' => ['class' => 'header']],
+                    ['label' => Yii::t('app', 'Feeds'), 'icon' => 'fa fa-file-code-o', 'url' => ['feed/index']],
                     
                     // Примеры для пунктов меню.
                     /*
