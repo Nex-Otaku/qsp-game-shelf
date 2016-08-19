@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel common\models\FeedSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Feeds';
+$this->title = Yii::t('app', 'Feeds');
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="feed-index">
@@ -16,7 +16,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
     <p>
-        <?= Html::a('Create Feed', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a(Yii::t('app', 'Create Feed'), ['create'], ['class' => 'btn btn-success']) ?>
     </p>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,

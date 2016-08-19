@@ -18,6 +18,9 @@ return [
 
     // Используется в сгенерированных скриптах.
     'The requested page does not exist.' => 'Запрашиваемой страницы не существует.',
+    'Are you sure you want to delete this item?' => 'Вы уверены, что хотите удалить эту запись?',
+    //'Item disabled' => 'Скрыто',
+    //'Item deleted' => 'Удалено',
 
     // Общие поля моделей.
     'Slug' => 'URL',
