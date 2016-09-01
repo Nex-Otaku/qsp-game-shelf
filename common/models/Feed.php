@@ -49,7 +49,7 @@ class Feed extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['id', 'slug', 'description', 'type', 'api_version_min', 'api_version_max'], 'required'],
+            [['slug', 'description', 'type', 'api_version_min', 'api_version_max'], 'required'],
             [['description', 'type'], 'string'],
             [['enabled', 'deleted', 'created_by', 'updated_by', 'deleted_by'], 'integer'],
             [['created_at', 'updated_at', 'deleted_at'], 'safe'],
