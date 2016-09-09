@@ -20,7 +20,7 @@
         "yiisoft/yii2-swiftmailer": "*",
         "dektrium/yii2-user": "^0.9.6",
         "dmstr/yii2-adminlte-asset": "^2.3",
-        "p2made/yii2-p2y2-things": "^1.11"
+        "nex-otaku/yii2-toolkit": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
@@ -36,6 +36,17 @@
         "asset-installer-paths": {
             "npm-asset-library": "vendor/npm",
             "bower-asset-library": "vendor/bower"
+        },
+        "asset-vcs-driver-options": {
+            "github-no-api": true
+        },
+        "asset-pattern-skip-version": "(-build|-patch)"
+    },
+    "repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nex-otaku/yii2-p2y2-things"
         }
-    }
+    ]
 }
