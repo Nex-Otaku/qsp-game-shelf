@@ -48,48 +48,21 @@
             "time": "2016-08-04 23:22:06"
         },
         {
-            "name": "bower-asset/animate.css",
-            "version": "3.5.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/daneden/animate.css.git",
-                "reference": "010e06e11175840ae84ad9363f7269f03775d963"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/daneden/animate.css/zipball/010e06e11175840ae84ad9363f7269f03775d963",
-                "reference": "010e06e11175840ae84ad9363f7269f03775d963",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "./animate.css",
-                "bower-asset-ignore": [
-                    ".*",
-                    "source",
-                    "*.yml",
-                    "Gemfile",
-                    "Gemfile.lock",
-                    "*.md"
-                ]
-            }
-        },
-        {
             "name": "bower-asset/bootstrap",
-            "version": "v3.3.5",
+            "version": "v3.3.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "16b48259a62f576e52c903c476bd42b90ab22482"
+                "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/16b48259a62f576e52c903c476bd42b90ab22482",
-                "reference": "16b48259a62f576e52c903c476bd42b90ab22482",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/0b9c4a4007c44201dce9a6cc1a38407005c26c86",
+                "reference": "0b9c4a4007c44201dce9a6cc1a38407005c26c86",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/jquery": ">=1.9.1"
+                "bower-asset/jquery": ">=1.9.1,<4.0"
             },
             "type": "bower-asset-library",
             "extra": {
@@ -124,945 +97,6 @@
             ]
         },
         {
-            "name": "bower-asset/bootstrap-social",
-            "version": "5.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lipis/bootstrap-social.git",
-                "reference": "90826fa078a9a13a679928a0439fc28cbe2706a6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lipis/bootstrap-social/zipball/90826fa078a9a13a679928a0439fc28cbe2706a6",
-                "reference": "90826fa078a9a13a679928a0439fc28cbe2706a6",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/bootstrap": "~3",
-                "bower-asset/font-awesome": "~4.5"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "bootstrap-social.css",
-                    "bootstrap-social.less",
-                    "bootstrap-social.scss"
-                ],
-                "bower-asset-ignore": [
-                    "assets",
-                    "index.html",
-                    "LICENCE"
-                ]
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "bower-asset/bootstrap-sweetalert",
-            "version": "0.4.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lipis/bootstrap-sweetalert.git",
-                "reference": "853bd5c8d047c68346a8aaf03969fd7296092157"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lipis/bootstrap-sweetalert/zipball/853bd5c8d047c68346a8aaf03969fd7296092157",
-                "reference": "853bd5c8d047c68346a8aaf03969fd7296092157",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "lib/sweet-alert.js",
-                    "lib/sweet-alert.css",
-                    "lib/sweet-alert.less",
-                    "lib/sweet-alert-animations.less"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "A beautiful replacement for JavaScript's alert for Bootstrap.",
-            "keywords": [
-                "alert",
-                "modal"
-            ]
-        },
-        {
-            "name": "bower-asset/bootstrap-switch",
-            "version": "v3.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nostalgiaz/bootstrap-switch.git",
-                "reference": "ec69b5dd914dacb19cf1fa8e1be7eea6bcc7b083"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nostalgiaz/bootstrap-switch/zipball/ec69b5dd914dacb19cf1fa8e1be7eea6bcc7b083",
-                "reference": "ec69b5dd914dacb19cf1fa8e1be7eea6bcc7b083",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/bootstrap": ">=2.3.2",
-                "bower-asset/jquery": ">=1.9.0"
-            },
-            "require-dev": {
-                "bower-asset/bootstrap": "~3.3",
-                "bower-asset/jquery": "~2.1"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "./dist/js/bootstrap-switch.js",
-                    "./dist/css/bootstrap3/bootstrap-switch.css"
-                ],
-                "bower-asset-ignore": [
-                    "docs",
-                    "test",
-                    "CNAME",
-                    "coffeelint.json",
-                    "composer.json",
-                    "CONTRIBUTING.md",
-                    "gulpfile.coffee",
-                    "gulpfile.js",
-                    "index.html",
-                    "package.json"
-                ]
-            },
-            "description": "Turn checkboxes and radio buttons in toggle switches."
-        },
-        {
-            "name": "bower-asset/bootswatch",
-            "version": "v3.3.5",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/thomaspark/bootswatch.git",
-                "reference": "57a25bd6da65fcc034c2029c0390272830572b93"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thomaspark/bootswatch/zipball/57a25bd6da65fcc034c2029c0390272830572b93",
-                "reference": "57a25bd6da65fcc034c2029c0390272830572b93",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/bootstrap": "~3.3.5"
-            },
-            "require-dev": {
-                "bower-asset/bootstrap-sass-official": "~3.3.5",
-                "bower-asset/font-awesome": "~4.0.0",
-                "bower-asset/html5shiv": "~3.7.0",
-                "bower-asset/respond": "~1.4.2"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-ignore": [
-                    "2",
-                    "api",
-                    "assets",
-                    "bower_components",
-                    "custom",
-                    "default",
-                    "global",
-                    "help",
-                    "tests",
-                    "_config.yml",
-                    ".gitignore",
-                    ".travis.yml",
-                    "CNAME",
-                    "composer.json",
-                    "favicon.ico",
-                    "Gemfile",
-                    "Gruntfile.js",
-                    "index.html",
-                    "package.json",
-                    "*/index.html"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Bootswatch is a collection of themes for Bootstrap."
-        },
-        {
-            "name": "bower-asset/datatables",
-            "version": "1.10.12",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DataTables/DataTables.git",
-                "reference": "3a432c5db3546b2ef0c192f2ae367811cb5edb9b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/DataTables/zipball/3a432c5db3546b2ef0c192f2ae367811cb5edb9b",
-                "reference": "3a432c5db3546b2ef0c192f2ae367811cb5edb9b",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/jquery": ">=1.7.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "media/js/jquery.dataTables.js",
-                    "media/css/jquery.dataTables.css",
-                    "media/images/sort_asc.png",
-                    "media/images/sort_asc_disabled.png",
-                    "media/images/sort_both.png",
-                    "media/images/sort_desc.png",
-                    "media/images/sort_desc_disabled.png"
-                ],
-                "bower-asset-ignore": [
-                    "/.*",
-                    "examples",
-                    "media/unit_testing",
-                    "composer.json",
-                    "dataTables.jquery.json",
-                    "package.json"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "keywords": [
-                "datatables",
-                "javascript",
-                "jquery",
-                "library",
-                "table"
-            ]
-        },
-        {
-            "name": "bower-asset/datatables-autofill",
-            "version": "2.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DataTables/AutoFill.git",
-                "reference": "a58763a7fe7d8abde62081e01e542949e5b943e2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/AutoFill/zipball/a58763a7fe7d8abde62081e01e542949e5b943e2",
-                "reference": "a58763a7fe7d8abde62081e01e542949e5b943e2",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/datatables": ">=1.10.8",
-                "bower-asset/jquery": ">=1.7.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "js/dataTables.autoFill.js",
-                    "css/autoFill.dataTables.scss"
-                ]
-            }
-        },
-        {
-            "name": "bower-asset/datatables-buttons",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DataTables/Buttons.git",
-                "reference": "2b82c8e13ab7e6877dd142b54929cacc7bba2dc3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/Buttons/zipball/2b82c8e13ab7e6877dd142b54929cacc7bba2dc3",
-                "reference": "2b82c8e13ab7e6877dd142b54929cacc7bba2dc3",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/datatables": ">=1.10.8",
-                "bower-asset/jquery": ">=1.7.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "js/dataTables.buttons.js",
-                    "js/buttons.colVis.js",
-                    "js/buttons.flash.js",
-                    "js/buttons.html5.js",
-                    "js/buttons.print.js",
-                    "css/buttons.dataTables.scss"
-                ]
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "bower-asset/datatables-colreorder",
-            "version": "1.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DataTables/ColReorder.git",
-                "reference": "4fa02b90857f5b9a1791e1a13210dddf9ee37e54"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/ColReorder/zipball/4fa02b90857f5b9a1791e1a13210dddf9ee37e54",
-                "reference": "4fa02b90857f5b9a1791e1a13210dddf9ee37e54",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/datatables": ">=1.10.8",
-                "bower-asset/jquery": ">=1.7.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "js/dataTables.colReorder.js",
-                    "css/colReorder.dataTables.scss"
-                ]
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "bower-asset/datatables-fixedcolumns",
-            "version": "3.2.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DataTables/FixedColumns.git",
-                "reference": "50a1a97de66c16cc5629f83a2f7f17752e1a9994"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/FixedColumns/zipball/50a1a97de66c16cc5629f83a2f7f17752e1a9994",
-                "reference": "50a1a97de66c16cc5629f83a2f7f17752e1a9994",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/datatables": ">=1.8.0",
-                "bower-asset/jquery": ">=1.7.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "js/dataTables.fixedColumns.js",
-                    "css/fixedColumns.dataTables.scss"
-                ]
-            }
-        },
-        {
-            "name": "bower-asset/datatables-fixedheader",
-            "version": "3.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DataTables/FixedHeader.git",
-                "reference": "25e80bbca579fcdb2f6fb044dc1d4c885bf8c550"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/FixedHeader/zipball/25e80bbca579fcdb2f6fb044dc1d4c885bf8c550",
-                "reference": "25e80bbca579fcdb2f6fb044dc1d4c885bf8c550",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/datatables": ">=1.10.7",
-                "bower-asset/jquery": ">=1.7.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "js/dataTables.fixedHeader.js",
-                    "css/fixedHeader.dataTables.scss"
-                ]
-            }
-        },
-        {
-            "name": "bower-asset/datatables-keytable",
-            "version": "2.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DataTables/KeyTable.git",
-                "reference": "5c3739399d8a52cc38cf74994f0267249cac4be4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/KeyTable/zipball/5c3739399d8a52cc38cf74994f0267249cac4be4",
-                "reference": "5c3739399d8a52cc38cf74994f0267249cac4be4",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/datatables": ">=1.10.8",
-                "bower-asset/jquery": ">=1.7.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "js/dataTables.keyTable.js",
-                    "css/keyTable.dataTables.scss"
-                ]
-            }
-        },
-        {
-            "name": "bower-asset/datatables-responsive",
-            "version": "2.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DataTables/Responsive.git",
-                "reference": "1b65f7c4c45acf056e3f799be6fb9f353b740165"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/Responsive/zipball/1b65f7c4c45acf056e3f799be6fb9f353b740165",
-                "reference": "1b65f7c4c45acf056e3f799be6fb9f353b740165",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/datatables": ">=1.10.1",
-                "bower-asset/jquery": ">=1.7.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "js/dataTables.responsive.js",
-                    "css/responsive.dataTables.scss"
-                ]
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "bower-asset/datatables-rowreorder",
-            "version": "1.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DataTables/RowReorder.git",
-                "reference": "8ad2f5a91773b30bd0ef81e866f8fb8a423740e2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/RowReorder/zipball/8ad2f5a91773b30bd0ef81e866f8fb8a423740e2",
-                "reference": "8ad2f5a91773b30bd0ef81e866f8fb8a423740e2",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/datatables": ">=1.10.8",
-                "bower-asset/jquery": ">=1.7.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "js/dataTables.rowReorder.js",
-                    "css/rowReorder.dataTables.scss"
-                ]
-            }
-        },
-        {
-            "name": "bower-asset/datatables-scroller",
-            "version": "1.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DataTables/Scroller.git",
-                "reference": "aa3ecb78d691a27444d48d6ecb29be3726ff3c8b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/Scroller/zipball/aa3ecb78d691a27444d48d6ecb29be3726ff3c8b",
-                "reference": "aa3ecb78d691a27444d48d6ecb29be3726ff3c8b",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/datatables": ">=1.10.0",
-                "bower-asset/jquery": ">=1.7.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "js/dataTables.scroller.js",
-                    "css/scroller.dataTables.scss"
-                ]
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "bower-asset/datatables-select",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/DataTables/Select.git",
-                "reference": "e55ca881018ac6a5a51a0ec592ff3b4ba70d57a8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/DataTables/Select/zipball/e55ca881018ac6a5a51a0ec592ff3b4ba70d57a8",
-                "reference": "e55ca881018ac6a5a51a0ec592ff3b4ba70d57a8",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/datatables": ">=1.10.8",
-                "bower-asset/jquery": ">=1.7.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "js/dataTables.select.js",
-                    "css/select.dataTables.scss"
-                ]
-            }
-        },
-        {
-            "name": "bower-asset/desandro-matches-selector",
-            "version": "v2.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/desandro/matches-selector.git",
-                "reference": "94f06d14dc2defafe8b6d6be4d9b999269d70abc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/desandro/matches-selector/zipball/94f06d14dc2defafe8b6d6be4d9b999269d70abc",
-                "reference": "94f06d14dc2defafe8b6d6be4d9b999269d70abc",
-                "shasum": ""
-            },
-            "require-dev": {
-                "bower-asset/qunit": "dev-1.x|1.x"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "matches-selector.js",
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "node_modules",
-                    "bower_components",
-                    "test",
-                    "tests",
-                    "tests.*",
-                    "package.json"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "matches/matchesSelector helper",
-            "keywords": [
-                "DOM",
-                "matches",
-                "matchesSelector"
-            ]
-        },
-        {
-            "name": "bower-asset/ekko-lightbox",
-            "version": "v4.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ashleydw/lightbox.git",
-                "reference": "e810882997264b63f1e055241f23ab22f74b3e80"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ashleydw/lightbox/zipball/e810882997264b63f1e055241f23ab22f74b3e80",
-                "reference": "e810882997264b63f1e055241f23ab22f74b3e80",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/bootstrap": ">=3.0.0"
-            },
-            "require-dev": {
-                "bower-asset/grunt": "~0.4.1",
-                "bower-asset/grunt-banner": "~0.2.0",
-                "bower-asset/grunt-contrib-coffee": "~0.8.0",
-                "bower-asset/grunt-contrib-uglify": "~0.2.2",
-                "bower-asset/grunt-contrib-watch": "~0.5.1",
-                "bower-asset/grunt-recess": "~0.3.3"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "./dist/ekko-lightbox.min.js",
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "examples",
-                    "node_modules",
-                    "bower_components",
-                    "test",
-                    "tests"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "A lightbox gallery plugin for Bootstrap 3 based on the modal plugin",
-            "keywords": [
-                "bootstrap",
-                "gallery",
-                "jquery",
-                "lightbox",
-                "modal"
-            ]
-        },
-        {
-            "name": "bower-asset/ev-emitter",
-            "version": "v1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/metafizzy/ev-emitter.git",
-                "reference": "1c67f55ea625b87857c2846e9505aee43f45bc6c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/metafizzy/ev-emitter/zipball/1c67f55ea625b87857c2846e9505aee43f45bc6c",
-                "reference": "1c67f55ea625b87857c2846e9505aee43f45bc6c",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "ev-emitter.js",
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "node_modules",
-                    "bower_components",
-                    "test",
-                    "tests",
-                    "sandbox"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "lil' event emitter",
-            "keywords": [
-                "emitter",
-                "event",
-                "pubsub"
-            ]
-        },
-        {
-            "name": "bower-asset/fizzy-ui-utils",
-            "version": "v2.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/metafizzy/fizzy-ui-utils.git",
-                "reference": "0137276a4541008ffa4fee42e6b3e09c3ed0fb53"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/metafizzy/fizzy-ui-utils/zipball/0137276a4541008ffa4fee42e6b3e09c3ed0fb53",
-                "reference": "0137276a4541008ffa4fee42e6b3e09c3ed0fb53",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/desandro-matches-selector": "~2.0.0"
-            },
-            "require-dev": {
-                "bower-asset/qunit": "~1.20.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "utils.js",
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "node_modules",
-                    "bower_components",
-                    "test",
-                    "tests",
-                    "package.json"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "UI utilities",
-            "keywords": [
-                "ui",
-                "utility"
-            ]
-        },
-        {
-            "name": "bower-asset/flag-icon-css",
-            "version": "2.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lipis/flag-icon-css.git",
-                "reference": "836eca11ecf437ae3d0f0c93dd245ab00d94cee1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lipis/flag-icon-css/zipball/836eca11ecf437ae3d0f0c93dd245ab00d94cee1",
-                "reference": "836eca11ecf437ae3d0f0c93dd245ab00d94cee1",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "css/flag-icon.min.css",
-                    "less/flag-icon.less",
-                    "sass/_flag-icon.sass"
-                ],
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "assets",
-                    "Gruntfile.coffee",
-                    "index.html",
-                    "LICENSE",
-                    "package.json"
-                ]
-            }
-        },
-        {
-            "name": "bower-asset/flot.tooltip",
-            "version": "0.8.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/krzysu/flot.tooltip.git",
-                "reference": "fe97782119656c12d981e403483948c3bfdbb84b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/krzysu/flot.tooltip/zipball/fe97782119656c12d981e403483948c3bfdbb84b",
-                "reference": "fe97782119656c12d981e403483948c3bfdbb84b",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "js/jquery.flot.tooltip.js",
-                "bower-asset-ignore": [
-                    ".gitignore",
-                    "Gruntfile.js",
-                    "README.md",
-                    "package.json",
-                    "examples"
-                ]
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "bower-asset/font-awesome",
-            "version": "v4.6.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FortAwesome/Font-Awesome.git",
-                "reference": "8e241f209faa1dd2182c9fdc9c352d8806504a4e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/8e241f209faa1dd2182c9fdc9c352d8806504a4e",
-                "reference": "8e241f209faa1dd2182c9fdc9c352d8806504a4e",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "less/font-awesome.less",
-                    "scss/font-awesome.scss"
-                ],
-                "bower-asset-ignore": [
-                    "*/.*",
-                    "*.json",
-                    "src",
-                    "*.yml",
-                    "Gemfile",
-                    "Gemfile.lock",
-                    "*.md"
-                ]
-            },
-            "license": [
-                "OFL-1.1",
-                "MIT",
-                "CC-BY-3.0"
-            ],
-            "description": "Font Awesome"
-        },
-        {
-            "name": "bower-asset/fullcalendar",
-            "version": "v2.7.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fullcalendar/fullcalendar.git",
-                "reference": "237bd4da83f38ba678fd5272c44b7a2ad13ccdc5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fullcalendar/fullcalendar/zipball/237bd4da83f38ba678fd5272c44b7a2ad13ccdc5",
-                "reference": "237bd4da83f38ba678fd5272c44b7a2ad13ccdc5",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/jquery": ">=1.7.1",
-                "bower-asset/moment": ">=2.5.0"
-            },
-            "require-dev": {
-                "bower-asset/bootstrap": "~3.2.0",
-                "bower-asset/jasmine-fixture": "~1.2.0",
-                "bower-asset/jasmine-jquery": "~2.0.3",
-                "bower-asset/jquery-mockjax": "~2.1.1",
-                "bower-asset/jquery-simulate": "~1.0.1",
-                "bower-asset/jquery-ui": ">=1.11.1",
-                "bower-asset/moment-timezone": "~0.2.1"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "dist/fullcalendar.js",
-                    "dist/fullcalendar.css"
-                ],
-                "bower-asset-ignore": [
-                    "*",
-                    "**/.*",
-                    "!/dist/**",
-                    "!/README.*",
-                    "!/LICENSE.*",
-                    "!/CHANGELOG.*",
-                    "!/CONTRIBUTING.*"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Full-sized drag & drop event calendar",
-            "keywords": [
-                "calendar",
-                "event",
-                "full-sized",
-                "jquery-plugin"
-            ]
-        },
-        {
-            "name": "bower-asset/get-size",
-            "version": "v2.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/desandro/get-size.git",
-                "reference": "2d64a97712adcaeaa9c3a415559934df20bf8009"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/desandro/get-size/zipball/2d64a97712adcaeaa9c3a415559934df20bf8009",
-                "reference": "2d64a97712adcaeaa9c3a415559934df20bf8009",
-                "shasum": ""
-            },
-            "require-dev": {
-                "bower-asset/qunit": "~1.10"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "get-size.js",
-                "bower-asset-ignore": [
-                    "test/",
-                    "**/.*",
-                    "package.json",
-                    "node_modules",
-                    "bower_components",
-                    "test",
-                    "tests",
-                    "sandbox.html"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "measures element size",
-            "keywords": [
-                "dom",
-                "height",
-                "size",
-                "width"
-            ]
-        },
-        {
-            "name": "bower-asset/gmaps",
-            "version": "0.4.24",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/hpneo/gmaps.git",
-                "reference": "648f15aff1c7c6115d372973864a3878da9e1621"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/hpneo/gmaps/zipball/648f15aff1c7c6115d372973864a3878da9e1621",
-                "reference": "648f15aff1c7c6115d372973864a3878da9e1621",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "gmaps.js"
-            }
-        },
-        {
-            "name": "bower-asset/holderjs",
-            "version": "v2.9.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/imsky/holder.git",
-                "reference": "325b1053364cc37c74d59efaca83dd3b6389d772"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/imsky/holder/zipball/325b1053364cc37c74d59efaca83dd3b6389d772",
-                "reference": "325b1053364cc37c74d59efaca83dd3b6389d772",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "holder.js"
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "bower-asset/isotope",
-            "version": "v3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/metafizzy/isotope.git",
-                "reference": "812c3f81ce29781f4255e97686c1117ef38d898c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/metafizzy/isotope/zipball/812c3f81ce29781f4255e97686c1117ef38d898c",
-                "reference": "812c3f81ce29781f4255e97686c1117ef38d898c",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/desandro-matches-selector": ">=2.0.0,<3.0.0",
-                "bower-asset/fizzy-ui-utils": ">=2.0.0,<3.0.0",
-                "bower-asset/get-size": ">=2.0.0,<3.0.0",
-                "bower-asset/masonry": ">=4.1.0,<5.0.0",
-                "bower-asset/outlayer": ">=2.1.0,<3.0.0"
-            },
-            "require-dev": {
-                "bower-asset/jquery": "2,<4",
-                "bower-asset/jquery-bridget": ">=2.0.0,<3.0.0",
-                "bower-asset/qunit": ">=1.15.0,<2.0.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "js/isotope.js",
-                "bower-asset-ignore": [
-                    "test/",
-                    "sandbox/",
-                    "**/.*",
-                    "package.json",
-                    "notes.md",
-                    "node_modules",
-                    "bower_components",
-                    "test",
-                    "tests"
-                ]
-            },
-            "license": [
-                "GPL-3.0"
-            ],
-            "description": "Filter and sort magical layouts",
-            "keywords": [
-                "filter",
-                "jquery-plugin",
-                "masonry",
-                "sort"
-            ]
-        },
-        {
             "name": "bower-asset/jquery",
             "version": "2.2.4",
             "source": {
@@ -1091,128 +125,6 @@
                 "javascript",
                 "jquery",
                 "library"
-            ]
-        },
-        {
-            "name": "bower-asset/jquery-countTo",
-            "version": "v1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mhuggins/jquery-countTo.git",
-                "reference": "636f1fca33abd40e2f29048df82b2dc9f1013cca"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mhuggins/jquery-countTo/zipball/636f1fca33abd40e2f29048df82b2dc9f1013cca",
-                "reference": "636f1fca33abd40e2f29048df82b2dc9f1013cca",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "jquery.countTo.js",
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "node_modules",
-                    "bower_components",
-                    "test",
-                    "tests"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "A jQuery plugin that will count up (or down) to a target number at a specified speed.",
-            "keywords": [
-                "count",
-                "counter",
-                "decrement",
-                "increment",
-                "jQuery"
-            ]
-        },
-        {
-            "name": "bower-asset/jquery-migrate",
-            "version": "1.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/appleboy/jquery-migrate.git",
-                "reference": "29077d39689bddad05036a537d49c4cf96488569"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/appleboy/jquery-migrate/zipball/29077d39689bddad05036a537d49c4cf96488569",
-                "reference": "29077d39689bddad05036a537d49c4cf96488569",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "jquery-migrate.js"
-            }
-        },
-        {
-            "name": "bower-asset/jquery-ui",
-            "version": "1.11.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/components/jqueryui.git",
-                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/components/jqueryui/zipball/c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
-                "reference": "c34f8dbf3ba57b3784b93f26119f436c0e8288e1",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/jquery": ">=1.6"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "jquery-ui.js"
-                ],
-                "bower-asset-ignore": []
-            }
-        },
-        {
-            "name": "bower-asset/jquery.fitvids",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/davatron5000/FitVids.js.git",
-                "reference": "d052bf05d6579f198a7f3b05bfa6764f6873c99b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/davatron5000/FitVids.js/zipball/d052bf05d6579f198a7f3b05bfa6764f6873c99b",
-                "reference": "d052bf05d6579f198a7f3b05bfa6764f6873c99b",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/jquery": ">=1.7.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "./jquery.fitvids.js",
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "node_modules",
-                    "components",
-                    "bower_components",
-                    "test",
-                    "tests"
-                ]
-            },
-            "license": [
-                "WTFPL"
-            ],
-            "description": "FitVids makes video embeds responsive",
-            "keywords": [
-                "FitVids",
-                "RWD",
-                "Responsive",
-                "Vimeo",
-                "YouTube"
             ]
         },
         {
@@ -1262,270 +174,6 @@
             ]
         },
         {
-            "name": "bower-asset/lightbox2",
-            "version": "v2.8.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/lokesh/lightbox2.git",
-                "reference": "2eedbf5c740e530e7abc78db6cf0ecec408f6512"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/lokesh/lightbox2/zipball/2eedbf5c740e530e7abc78db6cf0ecec408f6512",
-                "reference": "2eedbf5c740e530e7abc78db6cf0ecec408f6512",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/jquery": "~2"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "./dist/js/lightbox.js",
-                    "./dist/css/lightbox.css",
-                    "./dist/images/close.png",
-                    "./dist/images/loading.gif",
-                    "./dist/images/next.png",
-                    "./dist/images/prev.png"
-                ],
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "node_modules",
-                    "bower_components"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "The original Lightbox script. Uses jQuery.",
-            "keywords": [
-                "gallery",
-                "images",
-                "lightbox",
-                "lightbox2",
-                "overlay",
-                "slideshow"
-            ]
-        },
-        {
-            "name": "bower-asset/masonry",
-            "version": "v4.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/desandro/masonry.git",
-                "reference": "af5f63c6a393ee97b01fbbbaf6508204e9742edf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/desandro/masonry/zipball/af5f63c6a393ee97b01fbbbaf6508204e9742edf",
-                "reference": "af5f63c6a393ee97b01fbbbaf6508204e9742edf",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/get-size": ">=2.0.2,<3.0.0",
-                "bower-asset/outlayer": ">=2.1.0,<3.0.0"
-            },
-            "require-dev": {
-                "bower-asset/jquery": ">=1.4.3,<4",
-                "bower-asset/jquery-bridget": "~2.0.0",
-                "bower-asset/qunit": ">=1.12.0,<2.0.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "masonry.js",
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "node_modules",
-                    "bower_components",
-                    "test",
-                    "tests",
-                    "sandbox/",
-                    "gulpfile.js",
-                    "package.json",
-                    "composer.json"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Cascading grid layout library",
-            "keywords": [
-                "layout",
-                "masonry",
-                "outlayer"
-            ]
-        },
-        {
-            "name": "bower-asset/metisMenu",
-            "version": "v2.5.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/onokumus/metisMenu.git",
-                "reference": "ba21a8ea77bcecf8d23ec156ae8b2c0ae82167ba"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/onokumus/metisMenu/zipball/ba21a8ea77bcecf8d23ec156ae8b2c0ae82167ba",
-                "reference": "ba21a8ea77bcecf8d23ec156ae8b2c0ae82167ba",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/jquery": "~2.2.3"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "dist/metisMenu.js",
-                    "dist/metisMenu.css"
-                ],
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "node_modules",
-                    "bower_components",
-                    "test",
-                    "tests",
-                    "src",
-                    "composer.json"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "A jQuery menu plugin",
-            "keywords": [
-                "accordion",
-                "bootstrap",
-                "jquery",
-                "menu",
-                "metis",
-                "metisMenu",
-                "toggle",
-                "twbs",
-                "twitter"
-            ]
-        },
-        {
-            "name": "bower-asset/moment",
-            "version": "2.13.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/moment/moment.git",
-                "reference": "d6651c21c6131fbb5db891b60971357739015688"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment/zipball/d6651c21c6131fbb5db891b60971357739015688",
-                "reference": "d6651c21c6131fbb5db891b60971357739015688",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "moment.js",
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "benchmarks",
-                    "bower_components",
-                    "meteor",
-                    "node_modules",
-                    "scripts",
-                    "tasks",
-                    "test",
-                    "component.json",
-                    "composer.json",
-                    "CONTRIBUTING.md",
-                    "ender.js",
-                    "Gruntfile.js",
-                    "Moment.js.nuspec",
-                    "package.js",
-                    "package.json"
-                ]
-            }
-        },
-        {
-            "name": "bower-asset/moment-timezone",
-            "version": "0.5.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/moment/moment-timezone.git",
-                "reference": "a35db0367651d7bafcc750114a124343d349b8f5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/moment/moment-timezone/zipball/a35db0367651d7bafcc750114a124343d349b8f5",
-                "reference": "a35db0367651d7bafcc750114a124343d349b8f5",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/moment": ">=2.6.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "builds/moment-timezone-with-data-2010-2020.js",
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "tests",
-                    "tasks",
-                    "data/*/20*.json",
-                    "contributing.md",
-                    "Gruntfile.js",
-                    "index.js",
-                    "package.json"
-                ]
-            },
-            "description": "Parse and display moments in any timezone."
-        },
-        {
-            "name": "bower-asset/outlayer",
-            "version": "v2.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/metafizzy/outlayer.git",
-                "reference": "910f139591665752a0e779460438a6404eed4977"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/metafizzy/outlayer/zipball/910f139591665752a0e779460438a6404eed4977",
-                "reference": "910f139591665752a0e779460438a6404eed4977",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/ev-emitter": ">=1.0.0,<2.0.0",
-                "bower-asset/fizzy-ui-utils": ">=2.0.0,<3.0.0",
-                "bower-asset/get-size": ">=2.0.2,<3.0.0"
-            },
-            "require-dev": {
-                "bower-asset/jquery": ">=1.4.3,<4",
-                "bower-asset/jquery-bridget": "dev-2.x|2.x",
-                "bower-asset/qunit": ">=1.17.0,<2.0.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "outlayer.js",
-                "bower-asset-ignore": [
-                    "test/",
-                    "docs/",
-                    "sandbox/",
-                    ".*",
-                    "notes.md",
-                    "**/.*",
-                    "node_modules",
-                    "bower_components",
-                    "test",
-                    "tests",
-                    "package.json"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "the brains and guts of a layout library",
-            "keywords": [
-                "isotope",
-                "layout",
-                "masonry"
-            ]
-        },
-        {
             "name": "bower-asset/punycode",
             "version": "v1.3.2",
             "source": {
@@ -1552,108 +200,6 @@
                     "package.json"
                 ]
             }
-        },
-        {
-            "name": "bower-asset/qunit",
-            "version": "1.23.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jquery/qunit.git",
-                "reference": "d3335d550bc0fa6a553dc922d9a6a4e50bb55bd9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jquery/qunit/zipball/d3335d550bc0fa6a553dc922d9a6a4e50bb55bd9",
-                "reference": "d3335d550bc0fa6a553dc922d9a6a4e50bb55bd9",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "qunit/qunit.js",
-                    "qunit/qunit.css"
-                ],
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "!LICENSE.txt",
-                    "package.json",
-                    "Gruntfile.js",
-                    "node_modules",
-                    "test"
-                ]
-            },
-            "license": [
-                "https://github.com/jquery/qunit/blob/master/LICENSE.txt"
-            ]
-        },
-        {
-            "name": "bower-asset/sweetalert",
-            "version": "v1.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/t4t5/sweetalert.git",
-                "reference": "3b9d8eb90268e0b1f8f58b2eba240631df0ad18f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/t4t5/sweetalert/zipball/3b9d8eb90268e0b1f8f58b2eba240631df0ad18f",
-                "reference": "3b9d8eb90268e0b1f8f58b2eba240631df0ad18f",
-                "shasum": ""
-            },
-            "require-dev": {
-                "bower-asset/jquery": "~2.1.4",
-                "bower-asset/qunit": "~1.18.0"
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": [
-                    "dist/sweetalert.min.js",
-                    "dist/sweetalert.css"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "A beautiful replacement for JavaScript's alert.",
-            "keywords": [
-                "alert",
-                "modal"
-            ]
-        },
-        {
-            "name": "bower-asset/wow",
-            "version": "1.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/matthieua/WOW.git",
-                "reference": "535597ab3d6dfe3f7bfd76281c991e042fdeca25"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/matthieua/WOW/zipball/535597ab3d6dfe3f7bfd76281c991e042fdeca25",
-                "reference": "535597ab3d6dfe3f7bfd76281c991e042fdeca25",
-                "shasum": ""
-            },
-            "type": "bower-asset-library",
-            "extra": {
-                "bower-asset-main": "dist/wow.js",
-                "bower-asset-ignore": [
-                    "**/.*",
-                    "node_modules",
-                    "bower_components",
-                    "test",
-                    "tests"
-                ]
-            },
-            "license": [
-                "MIT"
-            ],
-            "description": "Reveal CSS animation as you scroll down a page.",
-            "keywords": [
-                "animation",
-                "reveal",
-                "scroll"
-            ]
         },
         {
             "name": "bower-asset/yii2-pjax",
@@ -1695,12 +241,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cebe/markdown.git",
-                "reference": "e2a490ceec590bf5bfd1b43bd424fb9dceceb7c5"
+                "reference": "04bfcaa26356cf86c6c4a2420eb95857a86e03ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cebe/markdown/zipball/e2a490ceec590bf5bfd1b43bd424fb9dceceb7c5",
-                "reference": "e2a490ceec590bf5bfd1b43bd424fb9dceceb7c5",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/04bfcaa26356cf86c6c4a2420eb95857a86e03ab",
+                "reference": "04bfcaa26356cf86c6c4a2420eb95857a86e03ab",
                 "shasum": ""
             },
             "require": {
@@ -1747,7 +293,7 @@
                 "markdown",
                 "markdown-extra"
             ],
-            "time": "2016-03-18 13:28:11"
+            "time": "2016-06-20 21:09:53"
         },
         {
             "name": "cebe/yii2-gravatar",
@@ -1794,40 +340,35 @@
         },
         {
             "name": "dektrium/yii2-user",
-            "version": "0.9.6",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dektrium/yii2-user.git",
-                "reference": "ae737861ff170b9c4376b274244bd9994ee0d248"
+                "reference": "d9530a1b4213c2bd7fd8eb05d185dfe9dffde558"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dektrium/yii2-user/zipball/ae737861ff170b9c4376b274244bd9994ee0d248",
-                "reference": "ae737861ff170b9c4376b274244bd9994ee0d248",
+                "url": "https://api.github.com/repos/dektrium/yii2-user/zipball/d9530a1b4213c2bd7fd8eb05d185dfe9dffde558",
+                "reference": "d9530a1b4213c2bd7fd8eb05d185dfe9dffde558",
                 "shasum": ""
             },
             "require": {
-                "yiisoft/yii2": "~2.0",
-                "yiisoft/yii2-authclient": "~2.0",
-                "yiisoft/yii2-bootstrap": "~2.0",
-                "yiisoft/yii2-jui": "~2.0",
-                "yiisoft/yii2-swiftmailer": "~2.0"
+                "yiisoft/yii2": "^2.0.0",
+                "yiisoft/yii2-authclient": "^2.1.0",
+                "yiisoft/yii2-bootstrap": "^2.0.0",
+                "yiisoft/yii2-swiftmailer": "^2.0.0"
             },
             "require-dev": {
-                "codeception/aspect-mock": "*",
-                "codeception/specify": "*",
-                "codeception/verify": "*",
-                "yiisoft/yii2-codeception": "~2.0"
+                "codeception/specify": "^0.4.3",
+                "codeception/verify": "^0.3.1",
+                "yiisoft/yii2-codeception": "^2.0.0"
             },
             "type": "yii2-extension",
             "extra": {
                 "bootstrap": "dektrium\\user\\Bootstrap",
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                },
-                "asset-installer-paths": {
-                    "npm-asset-library": "vendor/npm",
-                    "bower-asset-library": "vendor/bower"
+                    "dev-master": "0.9.x-dev",
+                    "dev-develop": "1.0.x-dev"
                 }
             },
             "autoload": {
@@ -1853,7 +394,7 @@
                 "yii2",
                 "yii2-user"
             ],
-            "time": "2016-03-27 18:09:10"
+            "time": "2016-08-13 15:45:38"
         },
         {
             "name": "dmstr/yii2-adminlte-asset",
@@ -1917,16 +458,16 @@
         },
         {
             "name": "ezyang/htmlpurifier",
-            "version": "v4.7.0",
+            "version": "v4.8.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "ae1828d955112356f7677c465f94f7deb7d27a40"
+                "reference": "d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/ae1828d955112356f7677c465f94f7deb7d27a40",
-                "reference": "ae1828d955112356f7677c465f94f7deb7d27a40",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2",
+                "reference": "d0c392f77d2f2a3dcf7fcb79e2a1e2b8804e75b2",
                 "shasum": ""
             },
             "require": {
@@ -1957,55 +498,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2015-08-05 01:03:42"
-        },
-        {
-            "name": "fortawesome/font-awesome",
-            "version": "v4.6.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/FortAwesome/Font-Awesome.git",
-                "reference": "8e241f209faa1dd2182c9fdc9c352d8806504a4e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/8e241f209faa1dd2182c9fdc9c352d8806504a4e",
-                "reference": "8e241f209faa1dd2182c9fdc9c352d8806504a4e",
-                "shasum": ""
-            },
-            "require-dev": {
-                "jekyll": "1.0.2",
-                "lessc": "1.4.2"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "4.6.x-dev"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OFL-1.1",
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Dave Gandy",
-                    "email": "dave@fontawesome.io",
-                    "homepage": "http://twitter.com/davegandy",
-                    "role": "Developer"
-                }
-            ],
-            "description": "The iconic font and CSS framework",
-            "homepage": "http://fontawesome.io/",
-            "keywords": [
-                "FontAwesome",
-                "awesome",
-                "bootstrap",
-                "font",
-                "icon"
-            ],
-            "time": "2016-05-13 15:42:25"
+            "time": "2016-07-16 12:58:58"
         },
         {
             "name": "fxp/composer-asset-plugin",
@@ -2064,42 +557,6 @@
             "time": "2016-08-03 07:44:07"
         },
         {
-            "name": "moontoast/math",
-            "version": "1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ramsey/moontoast-math.git",
-                "reference": "fce28a9d1e73e73376cb44e5e581675d15fbe2f3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ramsey/moontoast-math/zipball/fce28a9d1e73e73376cb44e5e581675d15fbe2f3",
-                "reference": "fce28a9d1e73e73376cb44e5e581675d15fbe2f3",
-                "shasum": ""
-            },
-            "require": {
-                "ext-bcmath": "*",
-                "php": ">=5.3.3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Moontoast\\Math": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "A mathematics library, providing functionality for large numbers",
-            "homepage": "https://github.com/moontoast/math",
-            "keywords": [
-                "bcmath",
-                "math"
-            ],
-            "time": "2013-01-19 17:42:34"
-        },
-        {
             "name": "nex-otaku/yii2-toolkit",
             "version": "dev-master",
             "source": {
@@ -2146,57 +603,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nex-Otaku/yii2-p2y2-things.git",
-                "reference": "cbcf7ddd430cee940e0e7eab3d5b61d0232ef4b3"
+                "reference": "417ba9dacde5d49264d219e1eccc5d7da46e20c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nex-Otaku/yii2-p2y2-things/zipball/cbcf7ddd430cee940e0e7eab3d5b61d0232ef4b3",
-                "reference": "cbcf7ddd430cee940e0e7eab3d5b61d0232ef4b3",
+                "url": "https://api.github.com/repos/Nex-Otaku/yii2-p2y2-things/zipball/417ba9dacde5d49264d219e1eccc5d7da46e20c3",
+                "reference": "417ba9dacde5d49264d219e1eccc5d7da46e20c3",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/animate.css": "3.5.1",
-                "bower-asset/bootstrap-social": "5.0.0",
-                "bower-asset/bootstrap-sweetalert": "0.4.5",
-                "bower-asset/bootstrap-switch": "v3.3.2",
-                "bower-asset/bootswatch": "v3.3.5",
-                "bower-asset/datatables": "1.10.12",
-                "bower-asset/datatables-autofill": "2.1.2",
-                "bower-asset/datatables-buttons": "1.2.0",
-                "bower-asset/datatables-colreorder": "1.3.2",
-                "bower-asset/datatables-fixedcolumns": "3.2.2",
-                "bower-asset/datatables-fixedheader": "3.1.2",
-                "bower-asset/datatables-keytable": "2.1.2",
-                "bower-asset/datatables-responsive": "2.1.0",
-                "bower-asset/datatables-rowreorder": "1.1.2",
-                "bower-asset/datatables-scroller": "1.4.2",
-                "bower-asset/datatables-select": "1.2.0",
-                "bower-asset/ekko-lightbox": "v4.0.2",
-                "bower-asset/flag-icon-css": "2.3.1",
-                "bower-asset/flot.tooltip": "0.8.7",
-                "bower-asset/fullcalendar": "2.7.1",
-                "bower-asset/gmaps": "0.4.24",
-                "bower-asset/holderjs": "v2.9.3",
-                "bower-asset/isotope": "v3.0.0",
-                "bower-asset/jquery-countto": "v1.2.0",
-                "bower-asset/jquery-migrate": "1.4.0",
-                "bower-asset/jquery-ui": "1.11.4",
-                "bower-asset/jquery.fitvids": "v1.1.0",
-                "bower-asset/lightbox2": "v2.8.2",
-                "bower-asset/masonry": "v4.1.0",
-                "bower-asset/metismenu": "v2.5.2",
-                "bower-asset/moment": "2.13.0",
-                "bower-asset/moment-timezone": "0.5.3",
-                "bower-asset/qunit": "1.23.1",
-                "bower-asset/sweetalert": "v1.1.3",
-                "bower-asset/wow": "1.1.2",
-                "fortawesome/font-awesome": "v4.6.3",
                 "fxp/composer-asset-plugin": "^1.1.4",
-                "moontoast/math": "1.1.0",
-                "philippfrenzel/yii2fullcalendar": "2.5.3",
-                "ramsey/uuid": "3.4.1",
-                "rmrevin/yii2-fontawesome": "2.15.1",
-                "yiisoft/yii2": ">=2.0.8"
+                "ramsey/uuid": "3.4.1"
             },
             "type": "yii2-extension",
             "autoload": {
@@ -2258,7 +675,7 @@
                 "issues": "https://github.com/p2made/yii2-p2y2-things/issues?state=open",
                 "source": "https://github.com/p2made/yii2-p2y2-things"
             },
-            "time": "2016-09-08 05:17:43"
+            "time": "2016-09-10 05:53:43"
         },
         {
             "name": "paragonie/random_compat",
@@ -2307,55 +724,6 @@
                 "random"
             ],
             "time": "2016-04-03 06:00:07"
-        },
-        {
-            "name": "philippfrenzel/yii2fullcalendar",
-            "version": "2.5.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/philippfrenzel/yii2fullcalendar.git",
-                "reference": "a00862648a8cc81ddd8175b7b6f3ca6f09bde7c3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/philippfrenzel/yii2fullcalendar/zipball/a00862648a8cc81ddd8175b7b6f3ca6f09bde7c3",
-                "reference": "a00862648a8cc81ddd8175b7b6f3ca6f09bde7c3",
-                "shasum": ""
-            },
-            "require": {
-                "bower-asset/fullcalendar": "2.*",
-                "php": ">=5.4.0",
-                "yiisoft/yii2": "*",
-                "yiisoft/yii2-jui": "*"
-            },
-            "require-dev": {
-                "codeception/codeception": "*"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "yii2fullcalendar\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Philipp Frenzel",
-                    "email": "philipp@frenzel.net",
-                    "homepage": "http://www.frenzel.net/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Yii2 fullcalendar Widgets",
-            "homepage": "http://www.frenzel.net/",
-            "keywords": [
-                "fullcalendar",
-                "yii2"
-            ],
-            "time": "2016-04-23 15:30:06"
         },
         {
             "name": "ramsey/uuid",
@@ -2439,16 +807,16 @@
         },
         {
             "name": "rmrevin/yii2-fontawesome",
-            "version": "2.15.1",
+            "version": "2.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rmrevin/yii2-fontawesome.git",
-                "reference": "d2777130bc926bc670a4e50c2f504a0fb782efb1"
+                "reference": "ab08282b8cd05c570634926f41c868cf902981e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/d2777130bc926bc670a4e50c2f504a0fb782efb1",
-                "reference": "d2777130bc926bc670a4e50c2f504a0fb782efb1",
+                "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/ab08282b8cd05c570634926f41c868cf902981e7",
+                "reference": "ab08282b8cd05c570634926f41c868cf902981e7",
                 "shasum": ""
             },
             "require": {
@@ -2486,7 +854,7 @@
                 "font",
                 "yii"
             ],
-            "time": "2016-05-28 21:18:32"
+            "time": "2016-08-31 12:41:25"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -2494,19 +862,19 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "1460e98b53d2f916f1b4123069c96c90844a1a4d"
+                "reference": "de19df332219d73a2704525ba75aabd7dfaa303b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/1460e98b53d2f916f1b4123069c96c90844a1a4d",
-                "reference": "1460e98b53d2f916f1b4123069c96c90844a1a4d",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/de19df332219d73a2704525ba75aabd7dfaa303b",
+                "reference": "de19df332219d73a2704525ba75aabd7dfaa303b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
-                "mockery/mockery": "~0.9.1,<0.9.4"
+                "mockery/mockery": "~0.9.1"
             },
             "type": "library",
             "extra": {
@@ -2539,7 +907,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2016-05-11 12:36:48"
+            "time": "2016-09-07 22:19:22"
         },
         {
             "name": "yiisoft/yii2",
@@ -2547,16 +915,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "e42649aafe2bf98e7ee115949c75e06a1df9716e"
+                "reference": "848ac51fcf222c8e1e67e3368100ebcfa269f112"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/e42649aafe2bf98e7ee115949c75e06a1df9716e",
-                "reference": "e42649aafe2bf98e7ee115949c75e06a1df9716e",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/848ac51fcf222c8e1e67e3368100ebcfa269f112",
+                "reference": "848ac51fcf222c8e1e67e3368100ebcfa269f112",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/jquery": "2.2.*@stable | 2.1.*@stable | 1.11.*@stable",
+                "bower-asset/jquery": "2.2.*@stable | 2.1.*@stable | 1.11.*@stable | 1.12.*@stable",
                 "bower-asset/jquery.inputmask": "~3.2.2",
                 "bower-asset/punycode": "1.3.*",
                 "bower-asset/yii2-pjax": "~2.0.1",
@@ -2633,25 +1001,24 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2016-05-20 11:13:42"
+            "time": "2016-09-09 10:41:28"
         },
         {
             "name": "yiisoft/yii2-authclient",
-            "version": "dev-master",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-authclient.git",
-                "reference": "c5c40108d2cdcd3a90f7782a2ea89922d04fe2fa"
+                "reference": "5ed7ebfda270d87197f7640b2a9c046297080cac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-authclient/zipball/c5c40108d2cdcd3a90f7782a2ea89922d04fe2fa",
-                "reference": "c5c40108d2cdcd3a90f7782a2ea89922d04fe2fa",
+                "url": "https://api.github.com/repos/yiisoft/yii2-authclient/zipball/5ed7ebfda270d87197f7640b2a9c046297080cac",
+                "reference": "5ed7ebfda270d87197f7640b2a9c046297080cac",
                 "shasum": ""
             },
             "require": {
-                "ext-curl": "*",
-                "yiisoft/yii2": ">=2.0.4"
+                "yiisoft/yii2-httpclient": "~2.0.1"
             },
             "type": "yii2-extension",
             "extra": {
@@ -2677,11 +1044,12 @@
             "description": "External authentication via OAuth and OpenID for the Yii framework",
             "keywords": [
                 "OpenId",
+                "api",
                 "auth",
                 "oauth",
                 "yii2"
             ],
-            "time": "2016-04-14 08:45:26"
+            "time": "2016-08-29 09:21:09"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -2689,17 +1057,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "61ff14445779b225baa8e60cf4eddbc46cc14504"
+                "reference": "145235ffad542c7cf9a2736e9d119471fab9dbf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/61ff14445779b225baa8e60cf4eddbc46cc14504",
-                "reference": "61ff14445779b225baa8e60cf4eddbc46cc14504",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/145235ffad542c7cf9a2736e9d119471fab9dbf9",
+                "reference": "145235ffad542c7cf9a2736e9d119471fab9dbf9",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/bootstrap": "3.3.* | 3.2.* | 3.1.*",
-                "yiisoft/yii2": ">=2.0.6"
+                "yiisoft/yii2": "~2.0.6"
             },
             "type": "yii2-extension",
             "extra": {
@@ -2731,7 +1099,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2016-04-18 20:34:24"
+            "time": "2016-09-05 10:55:27"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -2739,12 +1107,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-composer.git",
-                "reference": "f5fe6ba58dbc92b37daed5d9bd94cda777852ee4"
+                "reference": "e882cc327a6935a41f2e8665b9ef0317f6852d4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/f5fe6ba58dbc92b37daed5d9bd94cda777852ee4",
-                "reference": "f5fe6ba58dbc92b37daed5d9bd94cda777852ee4",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/e882cc327a6935a41f2e8665b9ef0317f6852d4d",
+                "reference": "e882cc327a6935a41f2e8665b9ef0317f6852d4d",
                 "shasum": ""
             },
             "require": {
@@ -2778,39 +1146,34 @@
                 "extension installer",
                 "yii2"
             ],
-            "time": "2016-04-14 08:46:37"
+            "time": "2016-06-05 20:34:32"
         },
         {
-            "name": "yiisoft/yii2-jui",
+            "name": "yiisoft/yii2-httpclient",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/yiisoft/yii2-jui.git",
-                "reference": "86e922d0860473a5d63c092f832b5f8cf649abce"
+                "url": "https://github.com/yiisoft/yii2-httpclient.git",
+                "reference": "1cf89e11d543a03a69573077f7a52c92e1145e0a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-jui/zipball/86e922d0860473a5d63c092f832b5f8cf649abce",
-                "reference": "86e922d0860473a5d63c092f832b5f8cf649abce",
+                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/1cf89e11d543a03a69573077f7a52c92e1145e0a",
+                "reference": "1cf89e11d543a03a69573077f7a52c92e1145e0a",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/jquery-ui": "1.11.*@stable",
-                "yiisoft/yii2": "~2.0.4"
+                "yiisoft/yii2": "~2.0.0"
             },
             "type": "yii2-extension",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.0.x-dev"
-                },
-                "asset-installer-paths": {
-                    "npm-asset-library": "vendor/npm",
-                    "bower-asset-library": "vendor/bower"
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "yii\\jui\\": ""
+                    "yii\\httpclient\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2819,16 +1182,18 @@
             ],
             "authors": [
                 {
-                    "name": "Qiang Xue",
-                    "email": "qiang.xue@gmail.com"
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com"
                 }
             ],
-            "description": "The Jquery UI extension for the Yii framework",
+            "description": "HTTP client extension for the Yii framework",
             "keywords": [
-                "jQuery UI",
+                "curl",
+                "http",
+                "httpclient",
                 "yii2"
             ],
-            "time": "2016-09-05 11:32:45"
+            "time": "2016-09-03 19:36:23"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
@@ -2836,17 +1201,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-swiftmailer.git",
-                "reference": "163b9c6273e133c43a596aef46a9f5b1537731f9"
+                "reference": "8e3e92f032e7400c2593fe26e1832c4d0a832b65"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/163b9c6273e133c43a596aef46a9f5b1537731f9",
-                "reference": "163b9c6273e133c43a596aef46a9f5b1537731f9",
+                "url": "https://api.github.com/repos/yiisoft/yii2-swiftmailer/zipball/8e3e92f032e7400c2593fe26e1832c4d0a832b65",
+                "reference": "8e3e92f032e7400c2593fe26e1832c4d0a832b65",
                 "shasum": ""
             },
             "require": {
                 "swiftmailer/swiftmailer": "~5.0",
-                "yiisoft/yii2": ">=2.0.4"
+                "yiisoft/yii2": "~2.0.4"
             },
             "type": "yii2-extension",
             "extra": {
@@ -2878,7 +1243,7 @@
                 "swiftmailer",
                 "yii2"
             ],
-            "time": "2016-04-14 08:50:13"
+            "time": "2016-09-09 11:48:36"
         }
     ],
     "packages-dev": [
@@ -2915,12 +1280,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "efcde03be3051be1045515fb1520451283357fbb"
+                "reference": "54b24af89a6a97b59938bc63bfb8eea109ea27c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/efcde03be3051be1045515fb1520451283357fbb",
-                "reference": "efcde03be3051be1045515fb1520451283357fbb",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/54b24af89a6a97b59938bc63bfb8eea109ea27c2",
+                "reference": "54b24af89a6a97b59938bc63bfb8eea109ea27c2",
                 "shasum": ""
             },
             "require": {
@@ -2957,7 +1322,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-09-01 09:55:47"
+            "time": "2016-09-09 11:59:46"
         },
         {
             "name": "insolita/yii2-migration-generator",
@@ -3094,17 +1459,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "721045af916ed66cf217f4fe66137348a165e54c"
+                "reference": "17658ab8eb4981dad0891a9b09fda786d140be3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/721045af916ed66cf217f4fe66137348a165e54c",
-                "reference": "721045af916ed66cf217f4fe66137348a165e54c",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/17658ab8eb4981dad0891a9b09fda786d140be3b",
+                "reference": "17658ab8eb4981dad0891a9b09fda786d140be3b",
                 "shasum": ""
             },
             "require": {
-                "yiisoft/yii2": ">=2.0.4",
-                "yiisoft/yii2-bootstrap": "*"
+                "yiisoft/yii2": "~2.0.4",
+                "yiisoft/yii2-bootstrap": "~2.0.0"
             },
             "type": "yii2-extension",
             "extra": {
@@ -3133,7 +1498,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2016-07-29 12:59:20"
+            "time": "2016-09-05 10:57:44"
         },
         {
             "name": "yiisoft/yii2-faker",
@@ -3188,18 +1553,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "09243fe7fa0d379b842ef3e9582988d9cf8f659b"
+                "reference": "a5136efe5495dd1e941615e5c4a4ed09c44af194"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/09243fe7fa0d379b842ef3e9582988d9cf8f659b",
-                "reference": "09243fe7fa0d379b842ef3e9582988d9cf8f659b",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/a5136efe5495dd1e941615e5c4a4ed09c44af194",
+                "reference": "a5136efe5495dd1e941615e5c4a4ed09c44af194",
                 "shasum": ""
             },
             "require": {
                 "bower-asset/typeahead.js": "0.10.* | ~0.11.0",
                 "phpspec/php-diff": ">=1.0.2",
-                "yiisoft/yii2": ">=2.0.4",
+                "yiisoft/yii2": "~2.0.4",
                 "yiisoft/yii2-bootstrap": "~2.0"
             },
             "type": "yii2-extension",
@@ -3233,7 +1598,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2016-08-30 10:14:20"
+            "time": "2016-09-05 12:04:28"
         }
     ],
     "aliases": [],
