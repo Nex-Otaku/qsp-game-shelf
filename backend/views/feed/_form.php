@@ -16,7 +16,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'description')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'type')->dropDownList([ 'default' => 'Default', 'sandbox' => 'Sandbox', ], ['prompt' => '']) ?>
+    <?= $form->field($model, 'type')->dropDownList([ 'default' => 'Default', 'sandbox' => 'Sandbox', ], ['value' => 'default']) ?>
 
     <?= $form->field($model, 'api_version_min')->textInput(['maxlength' => true]) ?>
 
