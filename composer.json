@@ -20,7 +20,8 @@
         "yiisoft/yii2-swiftmailer": "*",
         "dektrium/yii2-user": "^0.9.6",
         "dmstr/yii2-adminlte-asset": "^2.3",
-        "nex-otaku/yii2-toolkit": "dev-master"
+        "nex-otaku/yii2-toolkit": "dev-master",
+        "nex-otaku/yii2-uuid-tools": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
@@ -47,6 +48,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/nex-otaku/yii2-p2y2-things"
+        },
+        {
+            "type": "vcs",
+            "url": "file://D:/Dev/repos/yii2-uuid-tools"
         }
     ]
 }

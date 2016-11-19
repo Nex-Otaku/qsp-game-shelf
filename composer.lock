@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "78e5882d17e05618bdc274d065065843",
-    "content-hash": "7f9ebb0159a3d3c16b53797b9a696141",
+    "hash": "663b7d691ab83e0841712c91b5a1696c",
+    "content-hash": "69f0e5ad235faf4cd9f4ef5064b1bb85",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -596,6 +596,40 @@
                 "yii2"
             ],
             "time": "2016-09-07 05:33:19"
+        },
+        {
+            "name": "nex-otaku/yii2-uuid-tools",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "D:/Dev/repos/yii2-uuid-tools",
+                "reference": "63477fa7544f270a750f829fa1aa930daad6f08b"
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "nexotaku\\uuid\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nex Otaku",
+                    "email": "nex@otaku.ru"
+                }
+            ],
+            "description": "Basic tools for UUID projects.",
+            "keywords": [
+                " uuid",
+                "extension",
+                "yii2"
+            ],
+            "time": "2016-11-15 05:03:23"
         },
         {
             "name": "p2made/yii2-p2y2-things",
@@ -1604,7 +1638,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "nex-otaku/yii2-toolkit": 20
+        "nex-otaku/yii2-toolkit": 20,
+        "nex-otaku/yii2-uuid-tools": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
