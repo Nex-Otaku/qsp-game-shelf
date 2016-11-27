@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c38ce7dc634b109279bf9acc0f775b31",
-    "content-hash": "17624ad17a486da858e13572aa002baa",
+    "hash": "b65fb44161a8ae9cc73f7b1b06d172d9",
+    "content-hash": "2641f4b701d3000372958cbd56ff0c53",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -545,8 +545,14 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "D:/Dev/repos/yii2-uuid-tools",
+                "url": "https://github.com/Nex-Otaku/yii2-uuid-tools.git",
                 "reference": "9f97d9bc1d55a6f87f4ed7e873d2bb7cf6d58e91"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nex-Otaku/yii2-uuid-tools/zipball/9f97d9bc1d55a6f87f4ed7e873d2bb7cf6d58e91",
+                "reference": "9f97d9bc1d55a6f87f4ed7e873d2bb7cf6d58e91",
+                "shasum": ""
             },
             "require": {
                 "ramsey/uuid": "3.4.1",
@@ -559,6 +565,7 @@
                     "p2made\\": "external\\p2made"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -578,16 +585,16 @@
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v2.0.2",
+            "version": "v2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf"
+                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/088c04e2f261c33bed6ca5245491cfca69195ccf",
-                "reference": "088c04e2f261c33bed6ca5245491cfca69195ccf",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
+                "reference": "a9b97968bcde1c4de2a5ec6cbd06a0f6c919b46e",
                 "shasum": ""
             },
             "require": {
@@ -622,7 +629,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-04-03 06:00:07"
+            "time": "2016-11-07 23:38:38"
         },
         {
             "name": "ramsey/uuid",

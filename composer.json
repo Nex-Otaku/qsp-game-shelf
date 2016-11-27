@@ -41,12 +41,5 @@
             "github-no-api": true
         },
         "asset-pattern-skip-version": "(-build|-patch)"
-    },
-    "repositories":
-    [
-        {
-            "type": "vcs",
-            "url": "file://D:/Dev/repos/yii2-uuid-tools"
-        }
-    ]
+    }
 }
