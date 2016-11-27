@@ -24,7 +24,6 @@
         "nex-otaku/yii2-uuid-tools": "dev-master"
     },
     "require-dev": {
-        "yiisoft/yii2-codeception": "*",
         "yiisoft/yii2-debug": "*",
         "yiisoft/yii2-gii": "*",
         "yiisoft/yii2-faker": "*",
@@ -45,10 +44,6 @@
     },
     "repositories":
     [
-        {
-            "type": "vcs",
-            "url": "https://github.com/nex-otaku/yii2-p2y2-things"
-        },
         {
             "type": "vcs",
             "url": "file://D:/Dev/repos/yii2-uuid-tools"

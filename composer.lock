@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "663b7d691ab83e0841712c91b5a1696c",
-    "content-hash": "69f0e5ad235faf4cd9f4ef5064b1bb85",
+    "hash": "c38ce7dc634b109279bf9acc0f775b31",
+    "content-hash": "17624ad17a486da858e13572aa002baa",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -501,77 +501,20 @@
             "time": "2016-07-16 12:58:58"
         },
         {
-            "name": "fxp/composer-asset-plugin",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fxpio/composer-asset-plugin.git",
-                "reference": "d7d189e8ffac26a2e39e26a9c75e1fc5c2e2b98d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fxpio/composer-asset-plugin/zipball/d7d189e8ffac26a2e39e26a9c75e1fc5c2e2b98d",
-                "reference": "d7d189e8ffac26a2e39e26a9c75e1fc5c2e2b98d",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0",
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "composer/composer": "^1.0.0"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Fxp\\Composer\\AssetPlugin\\FxpAssetPlugin",
-                "branch-alias": {
-                    "dev-master": "1.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Fxp\\Composer\\AssetPlugin\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "François Pluchino",
-                    "email": "francois.pluchino@gmail.com"
-                }
-            ],
-            "description": "NPM/Bower Dependency Manager for Composer",
-            "homepage": "https://github.com/fxpio/composer-asset-plugin",
-            "keywords": [
-                "asset",
-                "bower",
-                "composer",
-                "dependency manager",
-                "nodejs",
-                "npm",
-                "package"
-            ],
-            "time": "2016-08-03 07:44:07"
-        },
-        {
             "name": "nex-otaku/yii2-toolkit",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nex-Otaku/yii2-toolkit.git",
-                "reference": "9139ef895d0eb5d810bfe448f2b7f6d23901d4df"
+                "reference": "8a9097007ead15fb444da9bfdedb9f16f12cc1d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nex-Otaku/yii2-toolkit/zipball/9139ef895d0eb5d810bfe448f2b7f6d23901d4df",
-                "reference": "9139ef895d0eb5d810bfe448f2b7f6d23901d4df",
+                "url": "https://api.github.com/repos/Nex-Otaku/yii2-toolkit/zipball/8a9097007ead15fb444da9bfdedb9f16f12cc1d1",
+                "reference": "8a9097007ead15fb444da9bfdedb9f16f12cc1d1",
                 "shasum": ""
             },
             "require": {
-                "p2made/yii2-p2y2-things": "dev-last-composer",
                 "yiisoft/yii2": "*"
             },
             "type": "yii2-extension",
@@ -595,7 +538,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2016-09-07 05:33:19"
+            "time": "2016-11-27 12:10:55"
         },
         {
             "name": "nex-otaku/yii2-uuid-tools",
@@ -603,15 +546,17 @@
             "source": {
                 "type": "git",
                 "url": "D:/Dev/repos/yii2-uuid-tools",
-                "reference": "63477fa7544f270a750f829fa1aa930daad6f08b"
+                "reference": "9f97d9bc1d55a6f87f4ed7e873d2bb7cf6d58e91"
             },
             "require": {
+                "ramsey/uuid": "3.4.1",
                 "yiisoft/yii2": "~2.0.0"
             },
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
-                    "nexotaku\\uuid\\": ""
+                    "nexotaku\\uuid\\": "",
+                    "p2made\\": "external\\p2made"
                 }
             },
             "license": [
@@ -629,87 +574,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2016-11-15 05:03:23"
-        },
-        {
-            "name": "p2made/yii2-p2y2-things",
-            "version": "dev-last-composer",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Nex-Otaku/yii2-p2y2-things.git",
-                "reference": "417ba9dacde5d49264d219e1eccc5d7da46e20c3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Nex-Otaku/yii2-p2y2-things/zipball/417ba9dacde5d49264d219e1eccc5d7da46e20c3",
-                "reference": "417ba9dacde5d49264d219e1eccc5d7da46e20c3",
-                "shasum": ""
-            },
-            "require": {
-                "fxp/composer-asset-plugin": "^1.1.4",
-                "ramsey/uuid": "3.4.1"
-            },
-            "type": "yii2-extension",
-            "autoload": {
-                "psr-4": {
-                    "p2made\\": ""
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Pedro Plowman",
-                    "email": "p2opensource@gmail.com",
-                    "homepage": "https://github.com/p2made"
-                }
-            ],
-            "description": "A bunch of CSS & JS resources wrapped as Yii 2 AssetBundles &/or Widgets.",
-            "keywords": [
-                "Bootstrap Social",
-                "Flot",
-                "FullCalendar",
-                "Holder.js",
-                "Morris",
-                "Morris.JS",
-                "PHP",
-                "Respond.JS",
-                "SweetAlert",
-                "alerts",
-                "asset",
-                "bundle",
-                "calendar",
-                "charts",
-                "data",
-                "dataTables",
-                "excanvas",
-                "extension",
-                "graphics",
-                "html5shiv",
-                "menu",
-                "metisMenu",
-                "moment",
-                "moment-timezone",
-                "moment.js",
-                "placeholder",
-                "placeholder-image",
-                "raphael",
-                "social",
-                "tables",
-                "time",
-                "timezone",
-                "vector",
-                "vector graphics",
-                "widget",
-                "yii",
-                "yii2"
-            ],
-            "support": {
-                "issues": "https://github.com/p2made/yii2-p2y2-things/issues?state=open",
-                "source": "https://github.com/p2made/yii2-p2y2-things"
-            },
-            "time": "2016-09-10 05:53:43"
+            "time": "2016-11-27 15:33:46"
         },
         {
             "name": "paragonie/random_compat",
@@ -1309,6 +1174,62 @@
             }
         },
         {
+            "name": "fxp/composer-asset-plugin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fxpio/composer-asset-plugin.git",
+                "reference": "d7d189e8ffac26a2e39e26a9c75e1fc5c2e2b98d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fxpio/composer-asset-plugin/zipball/d7d189e8ffac26a2e39e26a9c75e1fc5c2e2b98d",
+                "reference": "d7d189e8ffac26a2e39e26a9c75e1fc5c2e2b98d",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0.0"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Fxp\\Composer\\AssetPlugin\\FxpAssetPlugin",
+                "branch-alias": {
+                    "dev-master": "1.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Fxp\\Composer\\AssetPlugin\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Pluchino",
+                    "email": "francois.pluchino@gmail.com"
+                }
+            ],
+            "description": "NPM/Bower Dependency Manager for Composer",
+            "homepage": "https://github.com/fxpio/composer-asset-plugin",
+            "keywords": [
+                "asset",
+                "bower",
+                "composer",
+                "dependency manager",
+                "nodejs",
+                "npm",
+                "package"
+            ],
+            "time": "2016-08-03 07:44:07"
+        },
+        {
             "name": "fzaninotto/faker",
             "version": "dev-master",
             "source": {
@@ -1405,6 +1326,86 @@
             "time": "2016-05-17 18:04:55"
         },
         {
+            "name": "p2made/yii2-p2y2-things",
+            "version": "dev-last-composer",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nex-Otaku/yii2-p2y2-things.git",
+                "reference": "417ba9dacde5d49264d219e1eccc5d7da46e20c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nex-Otaku/yii2-p2y2-things/zipball/417ba9dacde5d49264d219e1eccc5d7da46e20c3",
+                "reference": "417ba9dacde5d49264d219e1eccc5d7da46e20c3",
+                "shasum": ""
+            },
+            "require": {
+                "fxp/composer-asset-plugin": "^1.1.4",
+                "ramsey/uuid": "3.4.1"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "p2made\\": ""
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Pedro Plowman",
+                    "email": "p2opensource@gmail.com",
+                    "homepage": "https://github.com/p2made"
+                }
+            ],
+            "description": "A bunch of CSS & JS resources wrapped as Yii 2 AssetBundles &/or Widgets.",
+            "keywords": [
+                "Bootstrap Social",
+                "Flot",
+                "FullCalendar",
+                "Holder.js",
+                "Morris",
+                "Morris.JS",
+                "PHP",
+                "Respond.JS",
+                "SweetAlert",
+                "alerts",
+                "asset",
+                "bundle",
+                "calendar",
+                "charts",
+                "data",
+                "dataTables",
+                "excanvas",
+                "extension",
+                "graphics",
+                "html5shiv",
+                "menu",
+                "metisMenu",
+                "moment",
+                "moment-timezone",
+                "moment.js",
+                "placeholder",
+                "placeholder-image",
+                "raphael",
+                "social",
+                "tables",
+                "time",
+                "timezone",
+                "vector",
+                "vector graphics",
+                "widget",
+                "yii",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/p2made/yii2-p2y2-things/issues?state=open",
+                "source": "https://github.com/p2made/yii2-p2y2-things"
+            },
+            "time": "2016-09-10 05:53:43"
+        },
+        {
             "name": "phpspec/php-diff",
             "version": "dev-master",
             "source": {
@@ -1441,51 +1442,6 @@
             ],
             "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays).",
             "time": "2016-04-07 12:29:16"
-        },
-        {
-            "name": "yiisoft/yii2-codeception",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/yiisoft/yii2-codeception.git",
-                "reference": "572a6d46d942cc5733c45931fdbd1d60228f3c89"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-codeception/zipball/572a6d46d942cc5733c45931fdbd1d60228f3c89",
-                "reference": "572a6d46d942cc5733c45931fdbd1d60228f3c89",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": ">=2.0.4"
-            },
-            "type": "yii2-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "yii\\codeception\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Mark Jebri",
-                    "email": "mark.github@yandex.ru"
-                }
-            ],
-            "description": "The Codeception integration for the Yii framework",
-            "keywords": [
-                "codeception",
-                "yii2"
-            ],
-            "time": "2016-04-14 08:46:27"
         },
         {
             "name": "yiisoft/yii2-debug",

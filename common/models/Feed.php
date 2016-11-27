@@ -3,7 +3,7 @@
 namespace common\models;
 
 use Yii;
-use nexotaku\toolkit\behaviors\UuidBehavior;
+use nexotaku\uuid\behaviors\UuidBehavior;
 
 /**
  * This is the model class for table "feed".
