@@ -4,6 +4,7 @@ namespace common\models;
 
 use Yii;
 use nexotaku\uuid\behaviors\UuidBehavior;
+use nexotaku\toolkit\behaviors\MysqlTimestampBehavior;
 
 /**
  * This is the model class for table "feed".
@@ -40,6 +41,7 @@ class Feed extends \yii\db\ActiveRecord
     {
         return [
             UuidBehavior::className(),
+            MysqlTimestampBehavior::className(),
         ];
     }
     
