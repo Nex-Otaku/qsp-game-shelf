@@ -506,12 +506,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nex-Otaku/yii2-toolkit.git",
-                "reference": "8a9097007ead15fb444da9bfdedb9f16f12cc1d1"
+                "reference": "b5989077b84b60be0b8baafc9185e3881ebfc7d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nex-Otaku/yii2-toolkit/zipball/8a9097007ead15fb444da9bfdedb9f16f12cc1d1",
-                "reference": "8a9097007ead15fb444da9bfdedb9f16f12cc1d1",
+                "url": "https://api.github.com/repos/Nex-Otaku/yii2-toolkit/zipball/b5989077b84b60be0b8baafc9185e3881ebfc7d4",
+                "reference": "b5989077b84b60be0b8baafc9185e3881ebfc7d4",
                 "shasum": ""
             },
             "require": {
@@ -538,7 +538,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2016-11-27 12:10:55"
+            "time": "2016-11-29 06:10:14"
         },
         {
             "name": "nex-otaku/yii2-uuid-tools",
