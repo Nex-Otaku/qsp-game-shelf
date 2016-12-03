@@ -21,7 +21,8 @@
         "dektrium/yii2-user": "^0.9.6",
         "dmstr/yii2-adminlte-asset": "^2.3",
         "nex-otaku/yii2-toolkit": "dev-master",
-        "nex-otaku/yii2-uuid-tools": "dev-master"
+        "nex-otaku/yii2-uuid-tools": "dev-master",
+        "yii2tech/ar-softdelete": "^1.0"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "*",
