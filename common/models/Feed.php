@@ -8,6 +8,7 @@ use nex_otaku\toolkit\behaviors\MysqlTimestampBehavior;
 use yii\behaviors\BlameableBehavior;
 use common\behaviors\SoftDeleteBehavior;
 use common\behaviors\SoftDeleteBlameableBehavior;
+use common\behaviors\SoftDeleteTimestampBehavior;
 
 /**
  * This is the model class for table "feed".
@@ -50,6 +51,7 @@ class Feed extends \yii\db\ActiveRecord
             BlameableBehavior::className(),
             SoftDeleteBehavior::className(),
             SoftDeleteBlameableBehavior::className(),
+            SoftDeleteTimestampBehavior::className(),
         ];
     }
     
@@ -61,8 +63,7 @@ class Feed extends \yii\db\ActiveRecord
         return [
             [['slug', 'description', 'type', 'api_version_min', 'api_version_max'], 'required'],
             [['description', 'type'], 'string'],
-            [['enabled', 'deleted', 'created_by', 'updated_by', 'deleted_by'], 'integer'],
-            [['created_at', 'updated_at', 'deleted_at'], 'safe'],
+            [['enabled'], 'integer'],
             [['id'], 'string', 'max' => 16],
             [['slug', 'api_version_min', 'api_version_max'], 'string', 'max' => 255],
             [['slug'], 'match', 'pattern' => '/^[a-z0-9-]+$/i'],
