@@ -3,8 +3,8 @@
 namespace common\models;
 
 use Yii;
-use nexotaku\uuid\behaviors\UuidBehavior;
-use nexotaku\toolkit\behaviors\MysqlTimestampBehavior;
+use nex_otaku\uuid\behaviors\UuidBehavior;
+use nex_otaku\toolkit\behaviors\MysqlTimestampBehavior;
 use yii\behaviors\BlameableBehavior;
 use yii2tech\ar\softdelete\SoftDeleteBehavior;
 
