@@ -6,7 +6,8 @@ use Yii;
 use nex_otaku\uuid\behaviors\UuidBehavior;
 use nex_otaku\toolkit\behaviors\MysqlTimestampBehavior;
 use yii\behaviors\BlameableBehavior;
-use yii2tech\ar\softdelete\SoftDeleteBehavior;
+use common\behaviors\SoftDeleteBehavior;
+use common\behaviors\SoftDeleteBlameableBehavior;
 
 /**
  * This is the model class for table "feed".
@@ -47,12 +48,8 @@ class Feed extends \yii\db\ActiveRecord
             UuidBehavior::className(),
             MysqlTimestampBehavior::className(),
             BlameableBehavior::className(),
-            'softDeleteBehavior' => [
-                'class' => SoftDeleteBehavior::className(),
-                'softDeleteAttributeValues' => [
-                    'deleted' => true
-                ],
-            ],
+            SoftDeleteBehavior::className(),
+            SoftDeleteBlameableBehavior::className(),
         ];
     }
     
