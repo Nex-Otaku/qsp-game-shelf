@@ -22,7 +22,8 @@
         "dmstr/yii2-adminlte-asset": "^2.3",
         "nex-otaku/yii2-toolkit": "dev-master",
         "nex-otaku/yii2-uuid-tools": "dev-master",
-        "yii2tech/ar-softdelete": "^1.0"
+        "yii2tech/ar-softdelete": "^1.0",
+        "mdmsoft/yii2-ar-behaviors": "^1.3"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "*",

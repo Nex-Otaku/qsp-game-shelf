@@ -28,6 +28,8 @@ use yii2tech\ar\softdelete\SoftDeleteBehavior;
  */
 class Feed extends \yii\db\ActiveRecord
 {
+    use \common\traits\NotDeletedTrait;
+    
     /**
      * @inheritdoc
      */

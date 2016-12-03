@@ -41,7 +41,8 @@ class FeedSearch extends Feed
      */
     public function search($params)
     {
-        $query = Feed::find();
+        $query = Feed::find()
+            ->notDeleted();
 
         // add conditions that should always apply here
 
