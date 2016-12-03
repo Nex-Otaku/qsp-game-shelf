@@ -554,12 +554,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nex-Otaku/yii2-toolkit.git",
-                "reference": "b5989077b84b60be0b8baafc9185e3881ebfc7d4"
+                "reference": "d2d081a9e3f4406c56225a1ad4ca6a006d65455a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nex-Otaku/yii2-toolkit/zipball/b5989077b84b60be0b8baafc9185e3881ebfc7d4",
-                "reference": "b5989077b84b60be0b8baafc9185e3881ebfc7d4",
+                "url": "https://api.github.com/repos/Nex-Otaku/yii2-toolkit/zipball/d2d081a9e3f4406c56225a1ad4ca6a006d65455a",
+                "reference": "d2d081a9e3f4406c56225a1ad4ca6a006d65455a",
                 "shasum": ""
             },
             "require": {
@@ -568,7 +568,7 @@
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
-                    "nexotaku\\toolkit\\": ""
+                    "nex_otaku\\toolkit\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -586,7 +586,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2016-11-29 06:10:14"
+            "time": "2016-12-03 15:20:05"
         },
         {
             "name": "nex-otaku/yii2-uuid-tools",
@@ -594,12 +594,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nex-Otaku/yii2-uuid-tools.git",
-                "reference": "9f97d9bc1d55a6f87f4ed7e873d2bb7cf6d58e91"
+                "reference": "a425fdc14f1844424247fbb6a106df71732ce6d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nex-Otaku/yii2-uuid-tools/zipball/9f97d9bc1d55a6f87f4ed7e873d2bb7cf6d58e91",
-                "reference": "9f97d9bc1d55a6f87f4ed7e873d2bb7cf6d58e91",
+                "url": "https://api.github.com/repos/Nex-Otaku/yii2-uuid-tools/zipball/a425fdc14f1844424247fbb6a106df71732ce6d4",
+                "reference": "a425fdc14f1844424247fbb6a106df71732ce6d4",
                 "shasum": ""
             },
             "require": {
@@ -609,7 +609,7 @@
             "type": "yii2-extension",
             "autoload": {
                 "psr-4": {
-                    "nexotaku\\uuid\\": "",
+                    "nex_otaku\\uuid\\": "",
                     "p2made\\": "external\\p2made"
                 }
             },
@@ -629,7 +629,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2016-11-27 15:33:46"
+            "time": "2016-12-03 15:19:08"
         },
         {
             "name": "paragonie/random_compat",
