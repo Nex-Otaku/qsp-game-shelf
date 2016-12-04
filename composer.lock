@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6e6e3a12063143cbf605e7c3c1a9891e",
-    "content-hash": "1abdb2fd7dbc4237501253dc4ed78446",
+    "hash": "119dce74a13dd1cf11fead61fc066882",
+    "content-hash": "c17abd3e3135a00c5da4942409cb0419",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -501,52 +501,45 @@
             "time": "2016-07-16 12:58:58"
         },
         {
-            "name": "mdmsoft/yii2-ar-behaviors",
+            "name": "nex-otaku/yii2-softdelete",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mdmsoft/yii2-ar-behaviors.git",
-                "reference": "6c2309888a1f663797e3155ae74d1af30a8d01a5"
+                "url": "https://github.com/Nex-Otaku/yii2-softdelete.git",
+                "reference": "eff063d64b55f1288bee0c4995ee1fe1cef787a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mdmsoft/yii2-ar-behaviors/zipball/6c2309888a1f663797e3155ae74d1af30a8d01a5",
-                "reference": "6c2309888a1f663797e3155ae74d1af30a8d01a5",
+                "url": "https://api.github.com/repos/Nex-Otaku/yii2-softdelete/zipball/eff063d64b55f1288bee0c4995ee1fe1cef787a2",
+                "reference": "eff063d64b55f1288bee0c4995ee1fe1cef787a2",
                 "shasum": ""
             },
             "require": {
-                "yiisoft/yii2": "~2.0"
+                "yiisoft/yii2": "~2.0.0"
             },
             "type": "yii2-extension",
-            "extra": {
-                "bootstrap": "mdm\\behaviors\\ar\\Bootstrap",
-                "branch-alias": {
-                    "dev-master": "1.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
-                    "mdm\\behaviors\\ar\\": ""
+                    "nex_otaku\\softdelete\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "BSD-3-Clause"
+                "MIT"
             ],
             "authors": [
                 {
-                    "name": "Misbahul Munir",
-                    "email": "misbahuldmunir@gmail.com"
+                    "name": "Nex Otaku",
+                    "email": "nex@otaku.ru"
                 }
             ],
-            "description": "Behaviors for Yii2",
+            "description": "SoftDelete for ActiveRecord.",
             "keywords": [
-                "Behavior",
-                "activerecord",
-                "query scope",
+                "extension",
+                "soft delete",
                 "yii2"
             ],
-            "time": "2016-10-05 15:34:08"
+            "time": "2016-12-03 17:44:12"
         },
         {
             "name": "nex-otaku/yii2-toolkit",
@@ -862,55 +855,6 @@
                 "mailer"
             ],
             "time": "2016-09-07 22:19:22"
-        },
-        {
-            "name": "yii2tech/ar-softdelete",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/yii2tech/ar-softdelete.git",
-                "reference": "8df3b9d20c162d8b82b992f4b48365a6544ba524"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yii2tech/ar-softdelete/zipball/8df3b9d20c162d8b82b992f4b48365a6544ba524",
-                "reference": "8df3b9d20c162d8b82b992f4b48365a6544ba524",
-                "shasum": ""
-            },
-            "require": {
-                "yiisoft/yii2": "*"
-            },
-            "type": "yii2-extension",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "yii2tech\\ar\\softdelete\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Paul Klimov",
-                    "email": "klimov.paul@gmail.com"
-                }
-            ],
-            "description": "Provides support for ActiveRecord soft delete in Yii2",
-            "keywords": [
-                "active",
-                "delete",
-                "record",
-                "smart",
-                "soft",
-                "yii2"
-            ],
-            "time": "2016-10-31 10:30:18"
         },
         {
             "name": "yiisoft/yii2",
@@ -1699,7 +1643,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "nex-otaku/yii2-toolkit": 20,
-        "nex-otaku/yii2-uuid-tools": 20
+        "nex-otaku/yii2-uuid-tools": 20,
+        "nex-otaku/yii2-softdelete": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
