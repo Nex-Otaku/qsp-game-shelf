@@ -1,0 +1,22 @@
+# AuthType Basic
+# AuthName "Private zone. Only for administrator!"
+# AuthUserFile /home/www/top100edu/html/.htpasswd
+# require valid-user
+
+Options -Indexes
+# follow symbolic links
+Options FollowSymlinks
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$
+RewriteRule ^(.*)$ http://%1/$1 [L,R=301]
+
+RewriteCond %{REQUEST_URI} ^/admin/$
+RewriteRule ^(admin)/$ /$1 [R=301,L]
+#RewriteRule ^(admin)/$ /$1 [L]
+RewriteCond %{REQUEST_URI} ^/admin
+RewriteRule ^admin(/.+)?$ /backend/web/$1 [L,PT]
+#RewriteRule ^admin(/.+)?$ /backend/web/$1 [L]
+
+RewriteCond %{REQUEST_URI} ^.*$
+RewriteRule ^(.*)$ /frontend/web/$1
