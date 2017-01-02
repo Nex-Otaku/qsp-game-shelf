@@ -14,10 +14,11 @@ return [
     'modules' => [],
     'components' => [
         'request' => [
+            'baseUrl' => '/admin',
             'csrfParam' => '_backendCSRF',
             'csrfCookie' => [
                 'httpOnly' => true,
-                'path' => '/administrator',
+                'path' => '/admin',
             ],
         ],
         'log' => [
@@ -35,7 +36,7 @@ return [
         'session' => [
             'name' => 'BACKENDSESSID',
             'cookieParams' => [
-                'path' => '/administrator',
+                'path' => '/admin',
                 'httpOnly' => true,
             ],
         ],
