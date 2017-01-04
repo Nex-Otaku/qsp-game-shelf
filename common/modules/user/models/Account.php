@@ -3,7 +3,7 @@
 namespace common\modules\user\models;
 
 use dektrium\user\models\Account as BaseAccount;
-use common\modules\user\behaviors\UuidBehavior;
+use nex_otaku\uuid\behaviors\UuidBehavior;
 
 /**
  * @property integer $id          Id

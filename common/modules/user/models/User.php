@@ -3,10 +3,10 @@
 namespace common\modules\user\models;
 
 use dektrium\user\models\User as BaseUser;
-use common\modules\user\behaviors\UuidBehavior;
+use nex_otaku\uuid\behaviors\UuidBehavior;
 use yii\base\Arrayable;
-use common\modules\user\behaviors\BinaryFieldsBehavior;
-use common\modules\user\classes\BinaryFieldsTrait;
+use nex_otaku\uuid\behaviors\BinaryFieldsBehavior;
+use nex_otaku\uuid\traits\BinaryFieldsTrait;
 use yii\base\ModelEvent;
 
 /**
