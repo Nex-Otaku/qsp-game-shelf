@@ -32,12 +32,12 @@ return [
             ],
         ],
     ],
-    'modules' => [
-        'user' => [
-            'class' => 'dektrium\user\Module',
-            'admins' => ['admin'],
-        ],        
-    ],
+//    'modules' => [
+//        'user' => [
+//            'class' => 'dektrium\user\Module',
+//            'admins' => ['admin'], // Хардкод для админского пользователя. После настройки прав доступа, нужно удалить эту строку.
+//        ],        
+//    ],
     'aliases' => [
         '@main_root' => realpath(dirname(__FILE__) . '/../../'),
     ],
