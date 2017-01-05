@@ -16,15 +16,18 @@ use yii\widgets\Menu;
 $user = Yii::$app->user->identity;
 $networksVisible = count(Yii::$app->authClientCollection->clients) > 0;
 
+$module = $this->context->module;
 ?>
 
 <div class="panel panel-default">
     <div class="panel-heading">
         <h3 class="panel-title">
-            <?= ''/*Html::img($user->profile->getAvatarUrl(24), [
+            <?php if ($module->enableGravatar): ?>
+            <?= Html::img($user->profile->getAvatarUrl(24), [
                 'class' => 'img-rounded',
                 'alt'   => $user->username,
-            ])*/ ?>
+            ]) ?>
+            <?php endif; ?>
             <?= $user->username ?>
         </h3>
     </div>

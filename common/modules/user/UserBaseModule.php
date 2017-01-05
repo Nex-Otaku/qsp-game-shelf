@@ -5,7 +5,7 @@ namespace common\modules\user;
 use dektrium\user\Module as BaseModule;
 
 /**
- * Конфигурация модуля "dektrium/yii2-user" для бэкенда.
+ * Общая конфигурация модуля "dektrium/yii2-user".
  *
  * @author Nex Otaku <nex@otaku.ru>
  */
@@ -24,4 +24,11 @@ class UserBaseModule extends BaseModule
     public $mailer = [
         'sender' => 'no-reply@top100photo.ru',
     ];
+    
+    // Используем email в качестве имени пользователя.
+    public $useEmailAsUsername = true;
+    // Отключаем аватарки.
+    public $enableGravatar = false;
+    // Используемые поля профиля.
+    public $profileFields = ['name', 'public_email', /*'gravatar_email', 'gravatar_id',*/ 'location', 'website', 'bio'];
 }

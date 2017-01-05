@@ -20,6 +20,8 @@ use yii\widgets\ActiveForm;
 
 $this->title = Yii::t('user', 'Account settings');
 $this->params['breadcrumbs'][] = $this->title;
+
+$module = $this->context->module;
 ?>
 
 <?= $this->render('/_alert', ['module' => Yii::$app->getModule('user')]) ?>
@@ -46,6 +48,10 @@ $this->params['breadcrumbs'][] = $this->title;
                 ]); ?>
 
                 <?= $form->field($model, 'email') ?>
+
+                <?php if (!$module->useEmailAsUsername): ?>
+                <?= $form->field($model, 'username') ?>
+                <?php endif; ?>
 
                 <?= $form->field($model, 'new_password')->passwordInput() ?>
 

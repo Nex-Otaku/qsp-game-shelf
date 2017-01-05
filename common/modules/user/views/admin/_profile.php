@@ -18,6 +18,7 @@ use yii\helpers\Html;
  * @var dektrium\user\models\Profile    $profile
  */
 
+$module = $this->context->module;
 ?>
 
 <?php $this->beginContent('@dektrium/user/views/admin/update.php', ['user' => $user]) ?>
@@ -33,8 +34,12 @@ use yii\helpers\Html;
     ],
 ]); ?>
 
-<?= $form->field($profile, 'name') ?>
-<?= $form->field($profile, 'phone') ?>
+<?php if (in_array('name', $module->profileFields)): ?><?= $form->field($profile, 'name') ?><?php endif; ?>
+<?php if (in_array('public_email', $module->profileFields)): ?><?= $form->field($profile, 'public_email') ?><?php endif; ?>
+<?php if (in_array('website', $module->profileFields)): ?><?= $form->field($profile, 'website') ?><?php endif; ?>
+<?php if (in_array('location', $module->profileFields)): ?><?= $form->field($profile, 'location') ?><?php endif; ?>
+<?php if (in_array('gravatar_email', $module->profileFields)): ?><?= $form->field($profile, 'gravatar_email') ?><?php endif; ?>
+<?php if (in_array('bio', $module->profileFields)): ?><?= $form->field($profile, 'bio')->textarea() ?><?php endif; ?>
 
 
 <div class="form-group">

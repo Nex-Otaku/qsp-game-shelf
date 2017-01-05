@@ -19,6 +19,8 @@ use yii\helpers\Html;
 
 $this->title = Yii::t('user', 'Profile settings');
 $this->params['breadcrumbs'][] = $this->title;
+
+$module = $this->context->module;
 ?>
 
 <?= $this->render('/_alert', ['module' => Yii::$app->getModule('user')]) ?>
@@ -45,11 +47,48 @@ $this->params['breadcrumbs'][] = $this->title;
                     'validateOnBlur'         => false,
                 ]); ?>
 
+                <?php if (in_array('name', $module->profileFields)): ?>
                 <?= $form->field($model, 'name') ?>
+                <?php endif; ?>
 
-                <?= $form->field($model, 'phone') ?>
-                
-                <?= $form->field($model, 'lead_subscribe')->checkbox() ?>
+                <?php if (in_array('public_email', $module->profileFields)): ?>
+                <?= $form->field($model, 'public_email') ?>
+                <?php endif; ?>
+
+                <?php if (in_array('website', $module->profileFields)): ?>
+                <?= $form->field($model, 'website') ?>
+                <?php endif; ?>
+
+                <?php if (in_array('location', $module->profileFields)): ?>
+                <?= $form->field($model, 'location') ?>
+                <?php endif; ?>
+
+                <?php if (in_array('timezone', $module->profileFields)): ?>
+                <?= $form
+                    ->field($model, 'timezone')
+                    ->dropDownList(
+                        \yii\helpers\ArrayHelper::map(
+                            \dektrium\user\helpers\Timezone::getAll(),
+                            'timezone',
+                            'name'
+                        )
+                    ); ?>
+                <?php endif; ?>
+
+                <?php if (in_array('gravatar_email', $module->profileFields)): ?>
+                <?= $form
+                    ->field($model, 'gravatar_email')
+                    ->hint(
+                        \yii\helpers\Html::a(
+                            Yii::t('user', 'Change your avatar at Gravatar.com'),
+                            'http://gravatar.com'
+                        )
+                    ) ?>
+                <?php endif; ?>
+
+                <?php if (in_array('bio', $module->profileFields)): ?>
+                <?= $form->field($model, 'bio')->textarea() ?>
+                <?php endif; ?>
 
                 <div class="form-group">
                     <div class="col-lg-offset-3 col-lg-9">
