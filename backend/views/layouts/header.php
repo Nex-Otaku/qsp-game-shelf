@@ -42,7 +42,7 @@ $username = Html::encode(Yii::$app->user->identity->username);
                             <div class="pull-right">
                                 <?= Html::a(
                                     'Выйти',
-                                    ['/user/logout'],
+                                    ['/user/security/logout'],
                                     ['data-method' => 'post', 'class' => 'btn btn-default btn-flat']
                                 ) ?>
                             </div>

@@ -60,67 +60,6 @@ class User extends BaseUser implements Arrayable
     }
 
     /**
-     * @inheritdoc
-     */
-    public function rules()
-    {
-        return array_merge(parent::rules(), [
-            [['deleted'], 'integer'],
-            [['deleted_at'], 'safe'],
-        ]);
-    }
-
-    public function init()
-    {
-        $this->deleted = 0;
-        $this->deleted_at = null;
-    }
-
-    /**
-     * @return bool
-     */
-    public function beforeSafeDelete()
-    {
-        $event = new ModelEvent();
-        $this->trigger('beforeSafeDelete', $event);
-
-        return $event->isValid;
-    }
-
-    /**
-     * @return bool|int
-     * @throws \yii\db\Exception
-     */
-    public function safeDelete()
-    {
-        if (!$this->beforeSafeDelete()) {
-            return false;
-        }
-
-        $this->deleted_at = date('Y-m-d h:i:s');
-        $this->deleted = 1;
-
-        $connection = \Yii::$app->db;
-
-        $result = $connection->createCommand()
-            ->update(
-                $this->tableName(), [
-                'deleted_at' => $this->deleted_at,
-                'deleted' => $this->deleted,
-                ], ['id' => $this->id]
-            )
-            ->execute();
-
-        $this->afterSafeDelete();
-        return $result;
-    }
-
-    public function afterSafeDelete()
-    {
-        $this->trigger('afterSafeDelete');
-    }
-
-    /**
      * Generates new username based on email address, or creates new username
      * like "emailuser1".
      */
