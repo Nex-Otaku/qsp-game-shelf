@@ -1,77 +1,92 @@
 <?php
 
-use yii\helpers\Html;
-use yii\bootstrap\ActiveForm;
+/*
+ * This file is part of the Dektrium project.
+ *
+ * (c) Dektrium project <http://github.com/dektrium>
+ *
+ * For the full copyright and license information, please view the LICENSE.md
+ * file that was distributed with this source code.
+ */
+
 use dektrium\user\widgets\Connect;
+use yii\helpers\Html;
+use yii\widgets\ActiveForm;
 
-$this->title = Yii::t('app', 'Login in top100edu.ru Profile');
+/**
+ * @var yii\web\View                   $this
+ * @var dektrium\user\models\LoginForm $model
+ * @var dektrium\user\Module           $module
+ */
+
+$this->title = Yii::t('user', 'Sign in');
 $this->params['breadcrumbs'][] = $this->title;
-$this->params['css']['body']['class'] = 'account';
-
 ?>
 
 <?= $this->render('/_alert', ['module' => Yii::$app->getModule('user')]) ?>
 
 <div class="row">
-    <h1 class="t-center m-t-20"><?= Html::encode($this->title) ?></h1>
-    <div class="col-sm-6 col-md-4 col-md-offset-4">
+    <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title"><?= Html::encode($this->title) ?></h3>
+            </div>
+            <div class="panel-body">
+                <?php $form = ActiveForm::begin([
+                    'id'                     => 'login-form',
+                    'enableAjaxValidation'   => true,
+                    'enableClientValidation' => false,
+                    'validateOnBlur'         => false,
+                    'validateOnType'         => false,
+                    'validateOnChange'       => false,
+                ]) ?>
 
-        <div class="account-wall">
-            <i class="user-img icons-faces-users-03"></i>
-            <div id="LoginFormContainer">
-                <?php $form = ActiveForm::begin(['id' => 'LoginForm', 'class' => "form-signup"]); ?>
-                    <div class="append-icon">
-                        <?= $form->field($model, 'login', [
-                            'inputOptions' => [
-                                'id' => 'username',
-                                'class' => 'form-control form-white username',
-                                'placeholder' => $model->getAttributeLabel('login')
-                            ],
-                            'enableLabel' => false
-                        ]); ?>
-                        <i class="icon-user"></i>
-                    </div>
-                    <div class="append-icon m-b-20">
-                        <?= $form->field($model, 'password', [
-                            'inputOptions' => [
-                                'type' => 'password',
-                                'class' => 'form-control form-white password',
-                                'placeholder' => $model->getAttributeLabel('password')
-                            ],
-                            'enableLabel' => false
-                        ]); ?>
-                        <i class="icon-lock"></i>
-                    </div>
+                <?= $form->field(
+                    $model,
+                    'login',
+                    ['inputOptions' => ['autofocus' => 'autofocus', 'class' => 'form-control', 'tabindex' => '1']]
+                ) ?>
 
-                    <?= Html::submitButton(Yii::t('app', 'Sign In'), ['id' => "submit-form", 'class' => 'btn btn-lg btn-danger btn-block', 'name' => 'login-button']) ?>
+                <?= $form
+                    ->field(
+                        $model,
+                        'password',
+                        ['inputOptions' => ['class' => 'form-control', 'tabindex' => '2']]
+                    )
+                    ->passwordInput()
+                    ->label(
+                        Yii::t('user', 'Password')
+                        .($module->enablePasswordRecovery ?
+                            ' (' . Html::a(
+                                Yii::t('user', 'Forgot password?'),
+                                ['/user/recovery/request'],
+                                ['tabindex' => '5']
+                            )
+                            . ')' : '')
+                    ) ?>
+
+                <?= $form->field($model, 'rememberMe')->checkbox(['tabindex' => '3']) ?>
+
+                <?= Html::submitButton(
+                    Yii::t('user', 'Sign in'),
+                    ['class' => 'btn btn-primary btn-block', 'tabindex' => '4']
+                ) ?>
+
                 <?php ActiveForm::end(); ?>
             </div>
         </div>
+        <?php if ($module->enableConfirmation): ?>
+            <p class="text-center">
+                <?= Html::a(Yii::t('user', 'Didn\'t receive confirmation message?'), ['/user/registration/resend']) ?>
+            </p>
+        <?php endif ?>
+        <?php if ($module->enableRegistration): ?>
+            <p class="text-center">
+                <?= Html::a(Yii::t('user', 'Don\'t have an account? Sign up!'), ['/user/registration/register']) ?>
+            </p>
+        <?php endif ?>
         <?= Connect::widget([
             'baseAuthUrl' => ['/user/security/auth'],
-            'options' => ['class' => 'social-buttons']
-        ]); ?>
-        
-        <div>
-            <?php if ($module->enablePasswordRecovery): ?>
-            <p class="text-center">
-                <?= Html::a(
-                        Yii::t('user', 'Forgot password?'),
-                        ['/user/recovery/request'],
-                        ['tabindex' => '5']
-                    ); ?>
-            </p>
-            <?php endif; ?>
-            <?php if ($module->enableConfirmation): ?>
-                <p class="text-center">
-                    <?= Html::a(Yii::t('user', 'Didn\'t receive confirmation message?'), ['/user/registration/resend']) ?>
-                </p>
-            <?php endif ?>
-            <?php if ($module->enableRegistration): ?>
-                <p class="text-center">
-                    <?= Html::a(Yii::t('user', 'Don\'t have an account? Sign up!'), ['/user/registration/register']) ?>
-                </p>
-            <?php endif ?>
-        </div>
+        ]) ?>
     </div>
 </div>
