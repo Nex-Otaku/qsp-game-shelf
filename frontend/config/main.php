@@ -40,13 +40,13 @@ return [
             ],
         ],
     ],
-//    'as access' => [
-//        'class' => 'mdm\admin\classes\AccessControl',
-//        // Маршруты, открытые по умолчанию всегда.
-//        'allowActions' => [
-//            // Выход
-//            'user/security/logout',
-//        ],
-//    ],
+    'as access' => [
+        'class' => 'mdm\admin\classes\AccessControl',
+        // Маршруты, открытые по умолчанию всегда.
+        'allowActions' => [
+            // Выход
+            'user/security/logout',
+        ],
+    ],
     'params' => $params,
 ];
