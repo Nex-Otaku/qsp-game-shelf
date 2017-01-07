@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5b0a511b284d9f63b0dfce0f3552310a",
-    "content-hash": "ce11ffd8e1e433b9832ba3734880247e",
+    "hash": "45eb0a0ed2e36c42529f3ff92edd20f5",
+    "content-hash": "af972f99819f104f5c8a6c89cb6d778e",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -1099,6 +1099,51 @@
                 "yii2"
             ],
             "time": "2017-01-04 12:08:56"
+        },
+        {
+            "name": "nex-otaku/yii2-uuid-user",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nex-Otaku/yii2-uuid-user.git",
+                "reference": "40a26b7f91b54bb6cb6d3057d9d26e45d68f023c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nex-Otaku/yii2-uuid-user/zipball/40a26b7f91b54bb6cb6d3057d9d26e45d68f023c",
+                "reference": "40a26b7f91b54bb6cb6d3057d9d26e45d68f023c",
+                "shasum": ""
+            },
+            "require": {
+                "dektrium/yii2-user": "^0.9.6",
+                "dmstr/yii2-db": "^0.7.7",
+                "nex-otaku/yii2-uuid-tools": "dev-master",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "nex_otaku\\user\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nex Otaku",
+                    "email": "nex@otaku.ru"
+                }
+            ],
+            "description": "Fork of Dektrium user extension, with UUID support.",
+            "keywords": [
+                "extension",
+                "user",
+                "uuid",
+                "yii2"
+            ],
+            "time": "2017-01-07 17:53:19"
         },
         {
             "name": "paragonie/random_compat",
@@ -2217,7 +2262,8 @@
     "stability-flags": {
         "nex-otaku/yii2-toolkit": 20,
         "nex-otaku/yii2-uuid-tools": 20,
-        "nex-otaku/yii2-softdelete": 20
+        "nex-otaku/yii2-softdelete": 20,
+        "nex-otaku/yii2-uuid-user": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

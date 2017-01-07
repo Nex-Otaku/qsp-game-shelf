@@ -24,7 +24,8 @@
         "nex-otaku/yii2-uuid-tools": "dev-master",
         "nex-otaku/yii2-softdelete": "dev-master",
         "mdmsoft/yii2-admin": "^3.2",
-        "dmstr/yii2-db": "^0.7.7"
+        "dmstr/yii2-db": "^0.7.7",
+        "nex-otaku/yii2-uuid-user": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "*",
