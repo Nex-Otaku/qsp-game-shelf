@@ -68,7 +68,9 @@ class UserSearch extends Model
     {
         $query = $this->finder->getUserQuery();
         // Отфильтровываем удалённых пользователей.
-        $query->andWhere(['deleted' => false]);
+        if ($this->finder->module->enableSoftDelete) {
+            $query->andWhere(['deleted' => false]);
+        }
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,

@@ -32,7 +32,11 @@ class SettingsController extends BaseSettingsController
         \Yii::$app->user->logout();
 
         $this->trigger(self::EVENT_BEFORE_DELETE, $event);
-        $user->safeDelete();
+        if ($this->module->enableSoftDelete) {
+            $user->safeDelete();
+        } else {
+            $user->delete();
+        }
         $this->trigger(self::EVENT_AFTER_DELETE, $event);
 
         \Yii::$app->session->setFlash('info', \Yii::t('user', 'Your account has been completely deleted'));

@@ -13,12 +13,12 @@
  */
 
 namespace dektrium\user;
-//namespace common\modules\user\classes;
 
 use dektrium\user\models\query\AccountQuery;
 use dektrium\user\models\Token;
 use yii\base\Object;
 use yii\db\ActiveQuery;
+use Yii;
 
 /**
  * Finder provides some useful methods for finding active record models.
@@ -37,6 +37,19 @@ class Finder extends Object
     /** @var ActiveQuery */
     protected $profileQuery;
 
+    public function getModule()
+    {
+        // Модуль должен быть подключен с ID "user".
+        $app = Yii::$app;
+        if ($app->hasModule('user')) {
+            $module = $app->getModule('user');
+            if ($module instanceof Module) {
+                return $module;
+            }
+        }
+        throw new \yii\base\Exception("User module not configured properly");
+    }
+    
     /**
      * @return ActiveQuery
      */
@@ -154,9 +167,12 @@ class Finder extends Object
      */
     public function findUser($condition)
     {
-        return $this->userQuery
-            ->where(['deleted' => false])
-            ->andWhere($condition);
+        if ($this->module->enableSoftDelete) {
+            return $this->userQuery
+                ->where(['deleted' => false])
+                ->andWhere($condition);
+        }
+        return $this->userQuery->where($condition);
     }
 
     /**

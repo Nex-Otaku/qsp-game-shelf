@@ -31,4 +31,6 @@ class UserBaseModule extends BaseModule
     public $enableGravatar = false;
     // Используемые поля профиля.
     public $profileFields = ['name', 'public_email', /*'gravatar_email', 'gravatar_id',*/ 'location', 'website', 'bio'];
+    // Безопасное удаление.
+    public $enableSoftDelete = false;
 }
