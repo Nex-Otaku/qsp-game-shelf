@@ -33,7 +33,7 @@ class SettingsController extends BaseSettingsController
 
         $this->trigger(self::EVENT_BEFORE_DELETE, $event);
         if ($this->module->enableSoftDelete) {
-            $user->safeDelete();
+            $user->softDelete();
         } else {
             $user->delete();
         }

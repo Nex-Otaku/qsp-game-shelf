@@ -30,7 +30,7 @@ class AdminController extends BaseAdminController
             $event = $this->getUserEvent($model);
             $this->trigger(self::EVENT_BEFORE_DELETE, $event);
             if ($this->module->enableSoftDelete) {
-                $model->safeDelete();
+                $model->softDelete();
             } else {
                 $model->delete();
             }
