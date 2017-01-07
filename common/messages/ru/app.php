@@ -47,4 +47,6 @@ return [
     //'Feed: {title}' => 'Фид: {title}',
     'Api Version Min' => 'Минимальная версия API',
     'Api Version Max' => 'Максимальная версия API',
+    
+    'Users' => 'Пользователи',
 ];
