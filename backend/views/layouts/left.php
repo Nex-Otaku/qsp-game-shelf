@@ -14,6 +14,7 @@
                     // Специфично для проекта.
                     ['label' => Yii::t('app', 'Admin'), 'options' => ['class' => 'header']],
                     ['label' => Yii::t('app', 'Feeds'), 'icon' => 'fa fa-file-code-o', 'url' => ['feed/index']],
+                    ['label' => Yii::t('app', 'Users'), 'icon' => 'fa fa-user', 'url' => ['/user/admin/index']],
                     
                     // Примеры для пунктов меню.
                     /*
