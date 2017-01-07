@@ -3,7 +3,6 @@
 namespace common\modules\user\models;
 
 use dektrium\user\models\Profile as BaseProfile;
-use Yii;
 
 /**
  * This is the model class for table "profile".
@@ -16,23 +15,6 @@ use Yii;
  */
 class Profile extends BaseProfile
 {
-    public function rules()
-    {
-        return [
-                ['name', 'string', 'max' => 255],
-                ['phone', 'safe'],
-                ['lead_subscribe', 'integer'],
-            ];
-    }
-    /**
-     * @inheritdoc
-     */
-    public function attributeLabels()
-    {
-        return [
-                'name' => Yii::t('user', 'Name'),
-                'phone' => Yii::t('app', 'Phone'),
-                'lead_subscribe' => Yii::t('app', 'Lead Subscribe'),
-            ];
-    }
+    // Объявляем свойства модели, специфичные для проекта.
+    // Например, переопределяем поля в методах "rules" и "attributeLabels".
 }
