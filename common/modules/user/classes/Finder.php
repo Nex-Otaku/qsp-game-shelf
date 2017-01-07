@@ -8,8 +8,12 @@
  * К сожалению, красивого способа переопределить класс разработчик модуля не предоставил,
  * поэтому делаем так:
  * в файле common/config/bootstrap.php
- * // Переопределяем класс Finder модуля dektrium/yii2-user.
+ * // Переопределяем класс Finder модуля "dektrium/yii2-user".
  * Yii::$classMap['dektrium\user\Finder'] = Yii::getAlias('@common/modules/user/classes/Finder.php');
+ * 
+ * TODO:
+ * Добиться, чтобы можно было нормально переопределять Finder - с помощью конфигурации модуля.
+ * Для этого нужно внести изменения в модуль "dektrium/yii2-user", других вариантов нет.
  */
 
 namespace dektrium\user;
