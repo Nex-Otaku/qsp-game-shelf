@@ -10,8 +10,23 @@ return [
     'id' => 'app-backend',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
-    'bootstrap' => ['log'],
-    'modules' => [],
+    'bootstrap' => [
+        'log',
+        'users-admin',
+    ],
+    'modules' => [
+        // ID модуля должен обязательно быть "user", иначе модуль не загрузится.
+        'user' => [
+            'class' => 'common\modules\user\UserBackendModule',
+        ],
+        // ID модуля может быть любой.
+        'users-admin' => [
+            'class' => 'mdm\admin\Module',
+            // Отключаем шаблон модуля,
+            // используем шаблон нашей админки.
+            'layout' => null,
+        ],
+    ],
     'components' => [
         'request' => [
             'baseUrl' => '/admin',
@@ -43,7 +58,31 @@ return [
         'urlManager' => [
             'rules' => [
                 'feed' => 'feed/index',
+                // Страница входа.
+                '/sign-in' => 'user/security/login',
             ],
+        ],
+    ],
+    'as access' => [
+        'class' => 'mdm\admin\classes\AccessControl',
+        // Маршруты, открытые по умолчанию всегда.
+        // Открываем только для начальной разработки.
+        // Как только основные данные о ролях заполнены,
+        // убираем отсюда всё лишнее.
+        'allowActions' => [
+            // Маршрут для отображения странички логина.
+            'site/*',
+            // Вход и выход из профиля.
+            'user/security/login',
+            'user/security/logout',
+            'user/security/auth',
+            // Регистрация.
+            'user/registration/register',
+            'user/registration/resend',
+            'user/registration/confirm',
+            // Восстановление пароля.
+            'user/recovery/request',
+            'user/recovery/reset',
         ],
     ],
     'params' => $params,

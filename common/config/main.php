@@ -3,6 +3,10 @@ return [
     'language' => 'ru-RU',
     'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
     'components' => [
+        'authManager' => [
+            'class' => 'yii\rbac\DbManager',
+            'defaultRoles' => ['default', 'user'],
+        ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
@@ -32,12 +36,12 @@ return [
             ],
         ],
     ],
-    'modules' => [
-        'user' => [
-            'class' => 'dektrium\user\Module',
-            'admins' => ['admin'],
-        ],        
-    ],
+//    'modules' => [
+//        'user' => [
+//            'class' => 'dektrium\user\Module',
+//            'admins' => ['admin'], // Хардкод для админского пользователя. После настройки прав доступа, нужно удалить эту строку.
+//        ],        
+//    ],
     'aliases' => [
         '@main_root' => realpath(dirname(__FILE__) . '/../../'),
     ],
