@@ -13,7 +13,6 @@ return [
     'bootstrap' => [
         'log',
         'users-admin',
-        'user',
     ],
     'modules' => [
         // ID модуля должен обязательно быть "user", иначе модуль не загрузится.

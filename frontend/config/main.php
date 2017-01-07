@@ -9,10 +9,7 @@ $params = array_merge(
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => [
-        'log',
-        'user',
-    ],
+    'bootstrap' => ['log'],
     'controllerNamespace' => 'frontend\controllers',
     'modules' => [
         // ID модуля должен обязательно быть "user", иначе модуль не загрузится.

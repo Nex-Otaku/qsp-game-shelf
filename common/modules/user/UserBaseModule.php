@@ -3,14 +3,13 @@
 namespace common\modules\user;
 
 use dektrium\user\Module as BaseModule;
-use yii\base\BootstrapInterface;
 
 /**
  * Общая конфигурация модуля "dektrium/yii2-user".
  *
  * @author Nex Otaku <nex@otaku.ru>
  */
-class UserBaseModule extends BaseModule implements BootstrapInterface
+class UserBaseModule extends BaseModule
 {
     public $modelMap = [
                 'User' => 'common\models\User',
@@ -37,15 +36,4 @@ class UserBaseModule extends BaseModule implements BootstrapInterface
     // добавить соотв. поля в миграцию, убрать эту настройку 
     // и настроить бихевиор на работу через обычный "delete".
     public $enableSoftDelete = false;
-    
-    /** @inheritdoc */
-    public function bootstrap($app)
-    {
-        /** @var Module $module */
-        /** @var \yii\db\ActiveRecord $modelName */
-        if ($app->hasModule('user') && ($module = $app->getModule('user')) instanceof UserBaseModule) {
-            // Переопределяем класс Finder модуля "dektrium/yii2-user".
-            Yii::$classMap['dektrium\user\Finder'] = Yii::getAlias('@common/modules/user/classes/Finder.php');
-        }
-    }
 }
