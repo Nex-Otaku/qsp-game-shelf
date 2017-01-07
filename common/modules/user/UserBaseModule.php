@@ -33,6 +33,9 @@ class UserBaseModule extends BaseModule implements BootstrapInterface
     // Используемые поля профиля.
     public $profileFields = ['name', 'public_email', /*'gravatar_email', 'gravatar_id',*/ 'location', 'website', 'bio'];
     // Безопасное удаление.
+    // TODO: встроить бихевиор для SoftDelete в стандартную модель модуля,
+    // добавить соотв. поля в миграцию, убрать эту настройку 
+    // и настроить бихевиор на работу через обычный "delete".
     public $enableSoftDelete = false;
     
     /** @inheritdoc */
