@@ -1,7 +1,7 @@
 <?php
 namespace common\models;
 
-use common\modules\user\models\User as BaseUser;
+use nex_otaku\user\models\User as BaseUser;
 
 class User extends BaseUser
 {

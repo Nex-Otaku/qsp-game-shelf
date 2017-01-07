@@ -17,7 +17,7 @@ return [
     'modules' => [
         // ID модуля должен обязательно быть "user", иначе модуль не загрузится.
         'user' => [
-            'class' => 'common\modules\user\UserBackendModule',
+            'class' => 'nex_otaku\user\UserBackendModule',
         ],
         // ID модуля может быть любой.
         'users-admin' => [

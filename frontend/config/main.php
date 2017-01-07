@@ -14,7 +14,7 @@ return [
     'modules' => [
         // ID модуля должен обязательно быть "user", иначе модуль не загрузится.
         'user' => [
-            'class' => 'common\modules\user\UserFrontendModule',
+            'class' => 'nex_otaku\user\UserFrontendModule',
         ],
     ],
     'components' => [
