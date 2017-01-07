@@ -63,18 +63,6 @@ return [
                 '/sign-in' => 'user/security/login',
             ],
         ],
-//        'view' => [
-//            'theme' => [
-//                'pathMap' => [
-//                    '@dektrium/user/views' => [
-//                        // Переопределяем
-//                        '@common/modules/people2/views/user', ??? почему people2 ??? непонятно. каким образом это работает?
-//                        // Путь по умолчанию
-//                        '@dektrium/user/views',
-//                    ],
-//                ],
-//            ],
-//        ],
     ],
     'as access' => [
         'class' => 'mdm\admin\classes\AccessControl',
