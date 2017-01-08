@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "45eb0a0ed2e36c42529f3ff92edd20f5",
-    "content-hash": "af972f99819f104f5c8a6c89cb6d778e",
+    "hash": "7c760d7910b4a3ed0e23b3fce015366a",
+    "content-hash": "18e7df7efa30c4d9881843abe08670b7",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -49,16 +49,16 @@
         },
         {
             "name": "bower-asset/adminlte",
-            "version": "v2.3.8",
+            "version": "v2.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/almasaeed2010/AdminLTE.git",
-                "reference": "ced14b133daed8c163863a497c43dcf69eea4340"
+                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/ced14b133daed8c163863a497c43dcf69eea4340",
-                "reference": "ced14b133daed8c163863a497c43dcf69eea4340",
+                "url": "https://api.github.com/repos/almasaeed2010/AdminLTE/zipball/be11566d9539370b196ac85f22a6baf9f42c87cb",
+                "reference": "be11566d9539370b196ac85f22a6baf9f42c87cb",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -95,16 +95,16 @@
         },
         {
             "name": "bower-asset/angular",
-            "version": "v1.6.1",
+            "version": "v1.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/angular/bower-angular.git",
-                "reference": "3828060389c83384b0a162eea82b21f183aa060c"
+                "reference": "7e0e546eb6caedbb298c91a9f6bf7de7eeaa4ad2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/angular/bower-angular/zipball/3828060389c83384b0a162eea82b21f183aa060c",
-                "reference": "3828060389c83384b0a162eea82b21f183aa060c",
+                "url": "https://api.github.com/repos/angular/bower-angular/zipball/7e0e546eb6caedbb298c91a9f6bf7de7eeaa4ad2",
+                "reference": "7e0e546eb6caedbb298c91a9f6bf7de7eeaa4ad2",
                 "shasum": ""
             },
             "type": "bower-asset-library",
@@ -152,20 +152,20 @@
         },
         {
             "name": "bower-asset/angular-resource",
-            "version": "v1.6.1",
+            "version": "v1.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/angular/bower-angular-resource.git",
-                "reference": "d203a7dae4943f2ef39693b5e4b456be6369ec53"
+                "reference": "26254617a7f9716d80bc2e32117585f33480a4e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/angular/bower-angular-resource/zipball/d203a7dae4943f2ef39693b5e4b456be6369ec53",
-                "reference": "d203a7dae4943f2ef39693b5e4b456be6369ec53",
+                "url": "https://api.github.com/repos/angular/bower-angular-resource/zipball/26254617a7f9716d80bc2e32117585f33480a4e3",
+                "reference": "26254617a7f9716d80bc2e32117585f33480a4e3",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/angular": "1.6.1"
+                "bower-asset/angular": "1.5.8"
             },
             "type": "bower-asset-library",
             "extra": {
@@ -178,20 +178,20 @@
         },
         {
             "name": "bower-asset/angular-route",
-            "version": "v1.6.1",
+            "version": "v1.5.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/angular/bower-angular-route.git",
-                "reference": "409c45cfc589d66457f7cbb11aa1fc47f8dbbf78"
+                "reference": "e96eff424fdd9689061659603ca59470375bf024"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/angular/bower-angular-route/zipball/409c45cfc589d66457f7cbb11aa1fc47f8dbbf78",
-                "reference": "409c45cfc589d66457f7cbb11aa1fc47f8dbbf78",
+                "url": "https://api.github.com/repos/angular/bower-angular-route/zipball/e96eff424fdd9689061659603ca59470375bf024",
+                "reference": "e96eff424fdd9689061659603ca59470375bf024",
                 "shasum": ""
             },
             "require": {
-                "bower-asset/angular": "1.6.1"
+                "bower-asset/angular": "1.5.8"
             },
             "type": "bower-asset-library",
             "extra": {
@@ -637,12 +637,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dektrium/yii2-user.git",
-                "reference": "05dc4d465d8402224953363c50c2cdb7410c92f0"
+                "reference": "91d255a4a3c0da75cd9f9feee8260a788f2d3d78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dektrium/yii2-user/zipball/05dc4d465d8402224953363c50c2cdb7410c92f0",
-                "reference": "05dc4d465d8402224953363c50c2cdb7410c92f0",
+                "url": "https://api.github.com/repos/dektrium/yii2-user/zipball/91d255a4a3c0da75cd9f9feee8260a788f2d3d78",
+                "reference": "91d255a4a3c0da75cd9f9feee8260a788f2d3d78",
                 "shasum": ""
             },
             "require": {
@@ -687,7 +687,7 @@
                 "yii2",
                 "yii2-user"
             ],
-            "time": "2017-01-03 16:31:28"
+            "time": "2017-01-07 15:55:31"
         },
         {
             "name": "dmstr/yii2-adminlte-asset",
@@ -840,17 +840,65 @@
             "time": "2016-07-16 12:58:58"
         },
         {
-            "name": "mdmsoft/yii2-admin",
-            "version": "dev-3.master",
+            "name": "fortawesome/font-awesome",
+            "version": "v4.7.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mdmsoft/yii2-admin.git",
-                "reference": "393c1f0622b12e0a9adb0fc10d26d8aa4289d23c"
+                "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mdmsoft/yii2-admin/zipball/393c1f0622b12e0a9adb0fc10d26d8aa4289d23c",
-                "reference": "393c1f0622b12e0a9adb0fc10d26d8aa4289d23c",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/a8386aae19e200ddb0f6845b5feeee5eb7013687",
+                "reference": "a8386aae19e200ddb0f6845b5feeee5eb7013687",
+                "shasum": ""
+            },
+            "require-dev": {
+                "jekyll": "1.0.2",
+                "lessc": "1.4.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.6.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OFL-1.1",
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Gandy",
+                    "email": "dave@fontawesome.io",
+                    "homepage": "http://twitter.com/davegandy",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The iconic font and CSS framework",
+            "homepage": "http://fontawesome.io/",
+            "keywords": [
+                "FontAwesome",
+                "awesome",
+                "bootstrap",
+                "font",
+                "icon"
+            ],
+            "time": "2016-10-24 15:52:54"
+        },
+        {
+            "name": "mdmsoft/yii2-admin",
+            "version": "3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mdmsoft/yii2-admin.git",
+                "reference": "8d1e133c6efaf013d84692673846824626b62843"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mdmsoft/yii2-admin/zipball/8d1e133c6efaf013d84692673846824626b62843",
+                "reference": "8d1e133c6efaf013d84692673846824626b62843",
                 "shasum": ""
             },
             "require": {
@@ -888,7 +936,7 @@
                 "rest",
                 "yii"
             ],
-            "time": "2016-03-18 13:38:39"
+            "time": "2015-09-05 07:07:03"
         },
         {
             "name": "mdmsoft/yii2-ar-behaviors",
@@ -1056,6 +1104,53 @@
                 "yii2"
             ],
             "time": "2017-01-05 17:29:49"
+        },
+        {
+            "name": "nex-otaku/yii2-uuid-admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nex-Otaku/yii2-uuid-admin.git",
+                "reference": "7af6eb0ae41187fdbc3d210fc5fc9a5706a662dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nex-Otaku/yii2-uuid-admin/zipball/7af6eb0ae41187fdbc3d210fc5fc9a5706a662dd",
+                "reference": "7af6eb0ae41187fdbc3d210fc5fc9a5706a662dd",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/adminlte": "2.3.6",
+                "bower-asset/angular": "1.5.8",
+                "bower-asset/angular-resource": "1.5.8",
+                "bower-asset/angular-route": "1.5.8",
+                "mdmsoft/yii2-admin": "3.2",
+                "nex-otaku/yii2-uuid-tools": "dev-master",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "nex_otaku\\admin\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nex Otaku",
+                    "email": "nex@otaku.ru"
+                }
+            ],
+            "description": "Fork of Mdmsoft RBAC admin extension, with UUID support.",
+            "keywords": [
+                "extension",
+                "rbac",
+                "yii2"
+            ],
+            "time": "2017-01-08 15:14:03"
         },
         {
             "name": "nex-otaku/yii2-uuid-tools",
@@ -1275,20 +1370,21 @@
         },
         {
             "name": "rmrevin/yii2-fontawesome",
-            "version": "2.16.1",
+            "version": "2.17.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rmrevin/yii2-fontawesome.git",
-                "reference": "ab08282b8cd05c570634926f41c868cf902981e7"
+                "reference": "470202eace1868f1f627bf8c4ce21a17b0548c4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/ab08282b8cd05c570634926f41c868cf902981e7",
-                "reference": "ab08282b8cd05c570634926f41c868cf902981e7",
+                "url": "https://api.github.com/repos/rmrevin/yii2-fontawesome/zipball/470202eace1868f1f627bf8c4ce21a17b0548c4a",
+                "reference": "470202eace1868f1f627bf8c4ce21a17b0548c4a",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.4.0",
+                "fortawesome/font-awesome": "~4.7",
+                "php": ">=5.5.0",
                 "yiisoft/yii2": "2.0.*"
             },
             "type": "yii2-extension",
@@ -1322,7 +1418,7 @@
                 "font",
                 "yii"
             ],
-            "time": "2016-08-31 12:41:25"
+            "time": "2016-10-25 15:14:55"
         },
         {
             "name": "schmunk42/retry",
@@ -1719,12 +1815,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-httpclient.git",
-                "reference": "1cf89e11d543a03a69573077f7a52c92e1145e0a"
+                "reference": "e4078a4daf4263161283cdaaa9880a1fafe9d08f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/1cf89e11d543a03a69573077f7a52c92e1145e0a",
-                "reference": "1cf89e11d543a03a69573077f7a52c92e1145e0a",
+                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/e4078a4daf4263161283cdaaa9880a1fafe9d08f",
+                "reference": "e4078a4daf4263161283cdaaa9880a1fafe9d08f",
                 "shasum": ""
             },
             "require": {
@@ -1758,7 +1854,7 @@
                 "httpclient",
                 "yii2"
             ],
-            "time": "2016-09-03 19:36:23"
+            "time": "2016-12-27 11:18:28"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
@@ -2263,7 +2359,8 @@
         "nex-otaku/yii2-toolkit": 20,
         "nex-otaku/yii2-uuid-tools": 20,
         "nex-otaku/yii2-softdelete": 20,
-        "nex-otaku/yii2-uuid-user": 20
+        "nex-otaku/yii2-uuid-user": 20,
+        "nex-otaku/yii2-uuid-admin": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

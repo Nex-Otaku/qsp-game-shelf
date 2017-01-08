@@ -21,10 +21,7 @@ return [
         ],
         // ID модуля может быть любой.
         'users-admin' => [
-            'class' => 'mdm\admin\Module',
-            // Отключаем шаблон модуля,
-            // используем шаблон нашей админки.
-            'layout' => null,
+            'class' => 'nex_otaku\admin\Module',
         ],
     ],
     'components' => [
