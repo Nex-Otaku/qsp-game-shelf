@@ -25,6 +25,14 @@ return [
             // Отключаем шаблон модуля,
             // используем шаблон нашей админки.
             'layout' => null,
+            'controllerMap' => [
+                'assignment' => [
+                    'class' => 'common\modules\people\controllers\AssignmentController',
+                ],
+                'menu' => [
+                    'class' => 'common\modules\people\controllers\MenuController',
+                ],
+            ],
         ],
     ],
     'components' => [
@@ -60,6 +68,18 @@ return [
                 'feed' => 'feed/index',
                 // Страница входа.
                 '/sign-in' => 'user/security/login',
+            ],
+        ],
+        'view' => [
+            'theme' => [
+                'pathMap' => [
+                    '@mdm/admin/views' => [
+                        // Переопределяем
+                        '@common/modules/people/views/admin',
+                        // Путь по умолчанию
+                        '@mdm/admin/views',
+                    ],
+                ],
             ],
         ],
     ],
