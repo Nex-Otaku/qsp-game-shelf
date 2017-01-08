@@ -21,18 +21,7 @@ return [
         ],
         // ID модуля может быть любой.
         'users-admin' => [
-            'class' => 'mdm\admin\Module',
-            // Отключаем шаблон модуля,
-            // используем шаблон нашей админки.
-            'layout' => null,
-            'controllerMap' => [
-                'assignment' => [
-                    'class' => 'common\modules\admin\controllers\AssignmentController',
-                ],
-                'menu' => [
-                    'class' => 'common\modules\admin\controllers\MenuController',
-                ],
-            ],
+            'class' => 'common\modules\admin\Module',
         ],
     ],
     'components' => [
@@ -68,18 +57,6 @@ return [
                 'feed' => 'feed/index',
                 // Страница входа.
                 '/sign-in' => 'user/security/login',
-            ],
-        ],
-        'view' => [
-            'theme' => [
-                'pathMap' => [
-                    '@mdm/admin/views' => [
-                        // Переопределяем
-                        '@common/modules/admin/views',
-                        // Путь по умолчанию
-                        '@mdm/admin/views',
-                    ],
-                ],
             ],
         ],
     ],
