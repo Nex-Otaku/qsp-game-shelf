@@ -3,9 +3,9 @@
 namespace common\modules\admin\models;
 
 use mdm\admin\models\Menu as BaseMenu;
-use common\modules\admin\behaviors\UuidBehavior;
-use common\modules\admin\behaviors\BinaryFieldsBehavior;
-use common\modules\admin\classes\BinaryFieldsTrait;
+use nex_otaku\uuid\behaviors\UuidBehavior;
+use nex_otaku\uuid\behaviors\BinaryFieldsBehavior;
+use nex_otaku\uuid\traits\BinaryFieldsTrait;
 use yii\base\Arrayable;
 
 /**

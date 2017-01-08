@@ -7,7 +7,7 @@ use yii\rest\Controller;
 use yii\web\NotFoundHttpException;
 use mdm\admin\classes\MenuHelper;
 use yii\helpers\ArrayHelper;
-use common\helpers\uuid;
+use nex_otaku\uuid\helpers\uuid;
 use yii\data\ActiveDataProvider;
 
 /**

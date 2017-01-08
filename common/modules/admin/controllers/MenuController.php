@@ -9,7 +9,7 @@ use yii\web\NotFoundHttpException;
 use mdm\admin\classes\MenuHelper;
 use yii\data\ActiveDataProvider;
 use yii\helpers\ArrayHelper;
-use common\helpers\uuid;
+use nex_otaku\uuid\helpers\uuid;
 
 /**
  * MenuController implements the CRUD actions for Menu model.
