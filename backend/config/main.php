@@ -75,7 +75,7 @@ return [
                 'pathMap' => [
                     '@mdm/admin/views' => [
                         // Переопределяем
-                        '@common/modules/admin/views/admin',
+                        '@common/modules/admin/views',
                         // Путь по умолчанию
                         '@mdm/admin/views',
                     ],
