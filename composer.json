@@ -18,18 +18,13 @@
         "yiisoft/yii2": ">=2.0.6",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
-        "dektrium/yii2-user": "^0.9.6",
         "dmstr/yii2-adminlte-asset": "^2.3",
         "nex-otaku/yii2-toolkit": "dev-master",
         "nex-otaku/yii2-uuid-tools": "dev-master",
         "nex-otaku/yii2-softdelete": "dev-master",
         "dmstr/yii2-db": "^0.7.7",
         "nex-otaku/yii2-uuid-user": "dev-master",
-        "mdmsoft/yii2-admin": "3.2",
-        "bower-asset/adminlte": "2.3.6",
-        "bower-asset/angular-resource": "1.5.8",
-        "bower-asset/angular-route": "1.5.8",
-        "bower-asset/angular": "1.5.8"
+        "nex-otaku/yii2-uuid-admin": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "*",

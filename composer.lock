@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "087c81441533bbf8f4ae387a1850d049",
-    "content-hash": "e22528aa85bd4570ed93670773e68ccc",
+    "hash": "7c760d7910b4a3ed0e23b3fce015366a",
+    "content-hash": "18e7df7efa30c4d9881843abe08670b7",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -637,12 +637,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dektrium/yii2-user.git",
-                "reference": "05dc4d465d8402224953363c50c2cdb7410c92f0"
+                "reference": "91d255a4a3c0da75cd9f9feee8260a788f2d3d78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dektrium/yii2-user/zipball/05dc4d465d8402224953363c50c2cdb7410c92f0",
-                "reference": "05dc4d465d8402224953363c50c2cdb7410c92f0",
+                "url": "https://api.github.com/repos/dektrium/yii2-user/zipball/91d255a4a3c0da75cd9f9feee8260a788f2d3d78",
+                "reference": "91d255a4a3c0da75cd9f9feee8260a788f2d3d78",
                 "shasum": ""
             },
             "require": {
@@ -687,7 +687,7 @@
                 "yii2",
                 "yii2-user"
             ],
-            "time": "2017-01-03 16:31:28"
+            "time": "2017-01-07 15:55:31"
         },
         {
             "name": "dmstr/yii2-adminlte-asset",
@@ -1104,6 +1104,53 @@
                 "yii2"
             ],
             "time": "2017-01-05 17:29:49"
+        },
+        {
+            "name": "nex-otaku/yii2-uuid-admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Nex-Otaku/yii2-uuid-admin.git",
+                "reference": "7af6eb0ae41187fdbc3d210fc5fc9a5706a662dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Nex-Otaku/yii2-uuid-admin/zipball/7af6eb0ae41187fdbc3d210fc5fc9a5706a662dd",
+                "reference": "7af6eb0ae41187fdbc3d210fc5fc9a5706a662dd",
+                "shasum": ""
+            },
+            "require": {
+                "bower-asset/adminlte": "2.3.6",
+                "bower-asset/angular": "1.5.8",
+                "bower-asset/angular-resource": "1.5.8",
+                "bower-asset/angular-route": "1.5.8",
+                "mdmsoft/yii2-admin": "3.2",
+                "nex-otaku/yii2-uuid-tools": "dev-master",
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "nex_otaku\\admin\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nex Otaku",
+                    "email": "nex@otaku.ru"
+                }
+            ],
+            "description": "Fork of Mdmsoft RBAC admin extension, with UUID support.",
+            "keywords": [
+                "extension",
+                "rbac",
+                "yii2"
+            ],
+            "time": "2017-01-08 15:14:03"
         },
         {
             "name": "nex-otaku/yii2-uuid-tools",
@@ -1768,12 +1815,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-httpclient.git",
-                "reference": "1cf89e11d543a03a69573077f7a52c92e1145e0a"
+                "reference": "e4078a4daf4263161283cdaaa9880a1fafe9d08f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/1cf89e11d543a03a69573077f7a52c92e1145e0a",
-                "reference": "1cf89e11d543a03a69573077f7a52c92e1145e0a",
+                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/e4078a4daf4263161283cdaaa9880a1fafe9d08f",
+                "reference": "e4078a4daf4263161283cdaaa9880a1fafe9d08f",
                 "shasum": ""
             },
             "require": {
@@ -1807,7 +1854,7 @@
                 "httpclient",
                 "yii2"
             ],
-            "time": "2016-09-03 19:36:23"
+            "time": "2016-12-27 11:18:28"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
@@ -2312,7 +2359,8 @@
         "nex-otaku/yii2-toolkit": 20,
         "nex-otaku/yii2-uuid-tools": 20,
         "nex-otaku/yii2-softdelete": 20,
-        "nex-otaku/yii2-uuid-user": 20
+        "nex-otaku/yii2-uuid-user": 20,
+        "nex-otaku/yii2-uuid-admin": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
