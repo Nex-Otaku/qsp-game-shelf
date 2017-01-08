@@ -21,7 +21,7 @@ return [
         ],
         // ID модуля может быть любой.
         'users-admin' => [
-            'class' => 'common\modules\admin\Module',
+            'class' => 'nex_otaku\admin\Module',
         ],
     ],
     'components' => [
