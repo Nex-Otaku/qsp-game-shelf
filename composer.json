@@ -23,9 +23,13 @@
         "nex-otaku/yii2-toolkit": "dev-master",
         "nex-otaku/yii2-uuid-tools": "dev-master",
         "nex-otaku/yii2-softdelete": "dev-master",
-        "mdmsoft/yii2-admin": "^3.2",
         "dmstr/yii2-db": "^0.7.7",
-        "nex-otaku/yii2-uuid-user": "dev-master"
+        "nex-otaku/yii2-uuid-user": "dev-master",
+        "mdmsoft/yii2-admin": "3.2",
+        "bower-asset/adminlte": "2.3.6",
+        "bower-asset/angular-resource": "1.5.8",
+        "bower-asset/angular-route": "1.5.8",
+        "bower-asset/angular": "1.5.8"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "*",
