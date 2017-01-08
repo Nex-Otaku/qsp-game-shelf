@@ -1,9 +1,9 @@
 <?php
 
-namespace common\modules\people\controllers;
+namespace common\modules\admin\controllers;
 
 use Yii;
-use common\modules\people\models\Menu;
+use common\modules\admin\models\Menu;
 use yii\rest\Controller;
 use yii\web\NotFoundHttpException;
 use mdm\admin\classes\MenuHelper;

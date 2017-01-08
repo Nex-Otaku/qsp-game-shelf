@@ -27,10 +27,10 @@ return [
             'layout' => null,
             'controllerMap' => [
                 'assignment' => [
-                    'class' => 'common\modules\people\controllers\AssignmentController',
+                    'class' => 'common\modules\admin\controllers\AssignmentController',
                 ],
                 'menu' => [
-                    'class' => 'common\modules\people\controllers\MenuController',
+                    'class' => 'common\modules\admin\controllers\MenuController',
                 ],
             ],
         ],
@@ -75,7 +75,7 @@ return [
                 'pathMap' => [
                     '@mdm/admin/views' => [
                         // Переопределяем
-                        '@common/modules/people/views/admin',
+                        '@common/modules/admin/views/admin',
                         // Путь по умолчанию
                         '@mdm/admin/views',
                     ],

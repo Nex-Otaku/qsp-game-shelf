@@ -1,11 +1,11 @@
 <?php
 
-namespace common\modules\people\models;
+namespace common\modules\admin\models;
 
 use mdm\admin\models\Menu as BaseMenu;
-use common\modules\people\behaviors\UuidBehavior;
-use common\modules\people\behaviors\BinaryFieldsBehavior;
-use common\modules\people\classes\BinaryFieldsTrait;
+use common\modules\admin\behaviors\UuidBehavior;
+use common\modules\admin\behaviors\BinaryFieldsBehavior;
+use common\modules\admin\classes\BinaryFieldsTrait;
 use yii\base\Arrayable;
 
 /**
