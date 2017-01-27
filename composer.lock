@@ -1201,17 +1201,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nex-Otaku/yii2-uuid-user.git",
-                "reference": "40a26b7f91b54bb6cb6d3057d9d26e45d68f023c"
+                "reference": "06656a611f533b3cc6a2ace15dda81d848e25442"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nex-Otaku/yii2-uuid-user/zipball/40a26b7f91b54bb6cb6d3057d9d26e45d68f023c",
-                "reference": "40a26b7f91b54bb6cb6d3057d9d26e45d68f023c",
+                "url": "https://api.github.com/repos/Nex-Otaku/yii2-uuid-user/zipball/06656a611f533b3cc6a2ace15dda81d848e25442",
+                "reference": "06656a611f533b3cc6a2ace15dda81d848e25442",
                 "shasum": ""
             },
             "require": {
                 "dektrium/yii2-user": "^0.9.6",
                 "dmstr/yii2-db": "^0.7.7",
+                "nex-otaku/yii2-softdelete": "dev-master",
                 "nex-otaku/yii2-uuid-tools": "dev-master",
                 "yiisoft/yii2": "~2.0.0"
             },
@@ -1238,7 +1239,7 @@
                 "uuid",
                 "yii2"
             ],
-            "time": "2017-01-07 17:53:19"
+            "time": "2017-01-26 05:42:48"
         },
         {
             "name": "paragonie/random_compat",
