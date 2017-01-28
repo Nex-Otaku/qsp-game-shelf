@@ -1201,12 +1201,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Nex-Otaku/yii2-uuid-user.git",
-                "reference": "06656a611f533b3cc6a2ace15dda81d848e25442"
+                "reference": "ee882f1a1ab2fd79b67505bbe4d4c145ea0078f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Nex-Otaku/yii2-uuid-user/zipball/06656a611f533b3cc6a2ace15dda81d848e25442",
-                "reference": "06656a611f533b3cc6a2ace15dda81d848e25442",
+                "url": "https://api.github.com/repos/Nex-Otaku/yii2-uuid-user/zipball/ee882f1a1ab2fd79b67505bbe4d4c145ea0078f0",
+                "reference": "ee882f1a1ab2fd79b67505bbe4d4c145ea0078f0",
                 "shasum": ""
             },
             "require": {
@@ -1239,7 +1239,7 @@
                 "uuid",
                 "yii2"
             ],
-            "time": "2017-01-26 05:42:48"
+            "time": "2017-01-28 07:20:57"
         },
         {
             "name": "paragonie/random_compat",
